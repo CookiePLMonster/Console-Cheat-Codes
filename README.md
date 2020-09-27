@@ -12,4 +12,4 @@ Currently includes:
 
 
 # Credits
-* HugoPocked -- Gran Turismo 2 widescreen codes
+* HugoPocked - Gran Turismo 2 widescreen codes
