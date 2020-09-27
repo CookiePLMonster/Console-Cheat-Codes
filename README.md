@@ -12,4 +12,5 @@ Currently includes:
 
 
 # Credits
+* asasega - Gran Turismo/Gran Turismo 2 60 FPS codes
 * HugoPocked - Gran Turismo 2 widescreen codes
