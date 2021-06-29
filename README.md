@@ -10,6 +10,12 @@ Currently includes:
   * Gran Turismo
   * Gran Turismo 2
 
+* PS2 PNACH codes for:
+  * Gran Turismo 4 Prologue (PAL, SCES-52438)
+  * Gran Turismo 4 First Preview (NTSC-J, PCPX-96649)
+  * Gran Turismo 4 (PAL, SCES-51719)
+  * Tourist Trophy (PAL, SCES-53372)
+
 
 # Credits
 * asasega - Gran Turismo/Gran Turismo 2 60 FPS codes

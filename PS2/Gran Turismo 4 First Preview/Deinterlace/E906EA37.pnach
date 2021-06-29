@@ -1,0 +1,10 @@
+gametitle=Gran Turismo 4 First Preview [PCPX 96649] (J)
+comment=Deinterlace patch
+author=Silent
+
+// no interlacing
+patch=1,EE,D04948E8,extended,00000002
+patch=1,EE,203ABD0C,extended,34020001 // deinterlace races
+patch=1,EE,D04948E8,extended,00000000
+patch=1,EE,203ABD0C,extended,30420001
+patch=1,EE,203A36BC,extended,00000000 // deinterlace menus

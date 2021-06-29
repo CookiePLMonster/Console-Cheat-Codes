@@ -1,0 +1,12 @@
+gametitle=Gran Turismo 4 [SCES-51719] (E)
+comment=Deinterlace patch
+author=Silent
+
+// no interlacing
+patch=1,EE,204A2A2C,extended,0000102D
+
+// force progressive scan
+patch=1,EE,20A57E70,extended,00000001
+
+// in mode 1 (Progressive), switch to PAL double strike instead of SDTV 480p
+patch=1,EE,20618690,extended,00000003

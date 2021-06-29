@@ -1,0 +1,6 @@
+gametitle=Tourist Trophy [SCES-53372] (E)
+comment=Deinterlace patch
+author=Silent
+
+// no interlacing
+patch=1,EE,204CAECC,extended,0000102D
