@@ -1,0 +1,53 @@
+cheats = 12
+cheat0_desc = "16:9 Widescreen"
+cheat0_code = "D0010000+FFE8+8007B39C+0155+D0010000+FFD0+8007B39C+0370+D0010000+FFE0+8007B39C+01AC+8007B39E+3402"
+cheat0_enable = true
+
+cheat1_desc = "60 FPS"
+cheat1_code = "E01D5864+0002+301D5864+0001"
+cheat1_enable = true
+
+
+cheat2_desc = "Re-enable tire smoke"
+cheat2_code = "D00168C8+0002+800168C8+0000+D00168CA+2842+800168CA+3402"
+cheat2_enable = true
+
+cheat3_desc = "Re-enable rear view mirror"
+cheat3_code = "D0029556+3844+80029556+3404+D0019644+0002+80019644+1021+D0019646+2842+80019646+0000"
+cheat3_enable = true
+
+cheat4_desc = "mph text -> km/h text (speedometer)"
+cheat4_code = "D002F6FC+B0D8+8002F6FC+A0C0+D002F6FE+3923+8002F6FE+3922"
+cheat4_enable = true
+
+cheat5_desc = "mph text -> km/h text (lap times)"
+cheat5_code = "D01C6C87+706D+801C6C87+6D6B+D01C6C89+0068+801C6C89+682F"
+cheat5_enable = true
+
+cheat6_desc = "Speed unit scaling"
+cheat6_code = "D0030570+000D+80030570+0016+D0030574+FBDD+80030574+8000"
+cheat6_enable = true
+
+cheat7_desc = "Speed unit scaling (License tests)"
+cheat7_code = "D004DA18+37C3+8004DA18+0000+D004DA1A+0006+8004DA1A+9506+D004DA28+3023+8004DA28+0000+D004DA2A+0046+8004DA2A+0000"
+cheat7_enable = true
+
+cheat8_desc = "lb text -> kg text"
+cheat8_code = "D01EF6C3+626C+801EF6C3+676B"
+cheat8_enable = true
+
+
+cheat9_desc = "Weight unit scaling"
+cheat9_code = "D001C968+4810+8001C968+0000+D001C974+3023+8001C974+03A4+D001C976+0046+8001C976+8D26+D001C564+4810+8001C564+0000+D001C570+3023+8001C570+03A4+D001C572+0046+8001C572+8D26"
+cheat9_enable = true
+
+cheat10_desc = "lb-ft text -> kgm text"
+cheat10_code = "D01C30FF+626C+801C30FF+676B+D01C3101+662D+801C3101+206D+D01C3103+2074+801C3103+202F+D01C3105+202F+801C3105+0000"
+cheat10_enable = true
+
+cheat11_desc = "Torque unit scaling"
+cheat11_code = "D001C808+4023+8001C808+0000+D001C80A+0062+8001C80A+0000"
+cheat11_enable = true
+
+
+
