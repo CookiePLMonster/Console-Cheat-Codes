@@ -1,0 +1,70 @@
+[{ar} Widescreen]
+# "Help" the game unload segments that normally are left unwritten to,
+# so further cheat detection is more reliable. This is safe as it overwrites dead code.
+A4052A64 801EF8EF # Reset the race overlay for Arcade
+8005D598 0000
+80057010 0000
+00000000 FFFF
+A4052B20 000000E7 # Reset the race overlay for Simulation
+8005D598 0000
+80057010 0000
+00000000 FFFF
+# Car Selection (Arcade)
+A4020A74 3084007F
+A701E55C {m-80}
+A701E564 {m80}
+# Car Selection 2P Battle (Arcade)
+A70201A8 {m-69}
+A70201B0 {m69}
+# Pre-race screen (Arcade)
+A7015350 {m140}
+00000000 FFFF
+# Race
+A401F888 AEB40008
+A70100D0 {m-A0}
+A70100D4 {mA0}
+00000000 FFFF
+# Race (Rear view mirror)
+A403EC6C 02602021
+A70295E4 {m-3C}
+A70295E8 {m3C}
+00000000 FFFF
+# Post-race screen #1
+A4057010 260201C0
+# a1 -> t1, *will* change visuals of some screens!
+# Other screens will get slightly resized to compensate for this.
+A7049736 A485A489
+A7049EB4 {mC8}
+A7049EBC 302100C8
+A7049EBE 00A03406
+A704C100 {mC8}
+A704C108 302100C8
+A704C10A 00A03406
+# Bonus screen (Licenses)
+# Use free space to re-fit li $a1, 160h \ sh $a1, C4h($a0)
+A704DFE8 00000160
+A704DFEA 00002405
+A704DFF4 022000C4
+A704DFF6 8FB2A485
+A704DFD0 {m160}
+# Results screen
+A7050B80 {m-B0}
+A7050B88 {mB0}
+00000000 FFFF
+# Post-race screen #2
+A405D598 8005A5B4
+A705802C {mC8}
+A7058034 302100C8
+A7058036 00A03406
+A70588E0 {mC8}
+A70588E8 302100C8
+A70588EA 00A03406
+# Bonus screen (Trophy)
+A70599C4 {m160}
+00000000 FFFF
+# GT Mode screens (Simulation)
+A40244EC 800229D8
+A701CDF4 {dB3}
+A701CDFC {d-32}
+A701CE04 {d320}
+00000000 FFFF

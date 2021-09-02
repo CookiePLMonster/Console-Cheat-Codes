@@ -1,5 +1,3 @@
-import struct
-
 def IDAStringToByteArray(str):
     tokens = str.split(' ')
     output = []
