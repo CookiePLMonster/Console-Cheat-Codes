@@ -1,0 +1,82 @@
+[Metric units]
+# "Help" the game unload segments that normally are left unwritten to,
+# so further cheat detection is more reliable. This is safe as it overwrites dead code.
+A00529DC 801EFB39 # Reset the race overlay for Arcade
+80057054 0000
+A0052A70 000000F6 # Reset the race overlay for Simulation
+80057054 0000
+# Localization changes
+# mph text -> km/h text (lap times)
+A71C6C87 706D6D6B
+A71C6C88 0068682F
+# lb text -> kg text (Arcade)
+A70F8677 626C676B
+# lb-ft text -> kgm text (Arcade)
+A70F86AF 626C676B
+A70F86B1 662D2F6D
+A70F86B3 2F746425
+A70F86B5 64257072
+A70F86B7 7072006D
+A70F86C0 626C676B
+A70F86C2 662D2F6D
+A70F86C4 2F74257E
+A70F86C6 257E7264
+A70F86C8 72646D70
+A70F86CA 6D700000
+# lb-ft text -> kgm text (Arcade graph)
+A70F85A6 626C676B
+A70F85A8 662D006D
+# mph launch speed -> km/h launch speed text (License tests)
+A71C7101 706D6D6B
+A71C7103 0068682F
+# lb text -> kg text (Simulation garage)
+A71EF6C3 626C676B
+# lb-ft text -> kgm text (Simulation garage)
+A71C30FF 626C676B
+A71C3101 662D206D
+A71C3103 2074202F
+A71C3105 202F0000
+# Code changes
+A403EC74 02602021
+# mph text -> km/h text (speedometer)
+A702F6FC B0D8A0C0
+A702F6FE 39233922
+# Speed unit scaling
+A7030570 000D0016
+A7030574 FBDD8000
+00000000 FFFF
+A4020A90 3084007F
+# Weight unit scaling (Arcade)
+A7018AE4 13030000
+A7018AE6 00090000
+A7018AEC 30230000
+A7018AEE 00463446
+# Torque unit scaling (Arcade)
+A7018C28 17C30000
+A7018C2A 000234A8
+A7018C3C 40230000
+A7018C3E 00620000
+# Torque graph scaling (Arcade)
+A70197B4 18230004
+A70197B6 00629683
+A70198CE ACC3ACC4
+00000000 FFFF
+# Speed unit scaling (License tests)
+A4057054 260201C0
+A704DA18 37C30000
+A704DA1A 00069506
+A704DA28 30230000
+A704DA2A 00460000
+00000000 FFFF
+A402442C 800229A8
+# Weight unit scaling (Simulation screens)
+A701C968 48100000
+A701C974 302303A4
+A701C976 00468D26
+A701C564 48100000
+A701C570 302303A4
+A701C572 00468D26
+# Torque unit scaling (Simulation screens)
+A701C808 40230000
+A701C80A 00620000
+00000000 FFFF

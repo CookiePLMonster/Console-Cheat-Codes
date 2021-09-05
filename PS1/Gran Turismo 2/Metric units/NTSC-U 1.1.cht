@@ -1,0 +1,84 @@
+[Metric units]
+# "Help" the game unload segments that normally are left unwritten to,
+# so further cheat detection is more reliable. This is safe as it overwrites dead code.
+A0052A64 801EF8EF # Reset the race overlay for Arcade
+80057010 0000
+A0052B20 000000E7 # Reset the race overlay for Simulation
+80057010 0000
+# Localization changes
+# mph text -> km/h text (lap times)
+A71C6A27 706D6D6B
+A71C6A29 0068682F
+# ft text -> m text (Arcade)
+A70F853D 7466006D
+# lb text -> kg text (Arcade)
+A70F8435 626C676B
+# lb-ft text -> kgm text (Arcade)
+A70F8474 626C676B
+A70F8476 662D2F6D
+A70F8478 2F746425
+A70F847A 64257072
+A70F847C 7072006D
+A70F8487 626C676B
+A70F8489 662D2F6D
+A70F848B 2F74257E
+A70F848D 257E7264
+A70F848F 72646D70
+A70F8491 6D700000
+# lb-ft text -> kgm text (Arcade graph)
+A70F835A 626C676B
+A70F835C 662D006D
+# mph launch speed -> km/h launch speed text (License tests)
+A71C6EA9 706D6D6B
+A71C6EAB 0068682F
+# lb text -> kg text (Simulation garage)
+A71EF476 626C676B
+# lb-ft text -> kgm text (Simulation garage)
+A71C2EA7 626C676B
+A71C2EA9 662D206D
+A71C2EAB 2074202F
+A71C2EAD 202F0000
+# Code changes
+A403EC6C 02602021
+# mph text -> km/h text (speedometer)
+A702F6F4 B0D8A0C0
+A702F6F6 39233922
+# Speed unit scaling
+A7030568 000D0016
+A703056C FBDD8000
+00000000 FFFF
+A4020A74 3084007F
+# Weight unit scaling (Arcade)
+A7018AC8 13030000
+A7018ACA 00090000
+A7018AD0 30230000
+A7018AD2 00463446
+# Torque unit scaling (Arcade)
+A7018C0C 17C30000
+A7018C0E 000234A8
+A7018C20 40230000
+A7018C22 00620000
+# Torque graph scaling (Arcade)
+A7019798 18230004
+A701979A 00629683
+A70198B2 ACC3ACC4
+00000000 FFFF
+# Speed unit scaling (License tests)
+A4057010 260201C0
+A704D984 37C30000
+A704D986 00069506
+A704D994 30230000
+A704D996 00460000
+00000000 FFFF
+A40244EC 800229D8
+# Weight unit scaling (Simulation screens)
+A701C968 48100000
+A701C974 302303A4
+A701C976 00468D26
+A701C564 48100000
+A701C570 302303A4
+A701C572 00468D26
+# Torque unit scaling (Simulation screens)
+A701C808 40230000
+A701C80A 00620000
+00000000 FFFF
