@@ -1,0 +1,10 @@
+gametitle=Gran Turismo 3 [SCES-50294] (E)
+comment=Adjusted tiggers sensitivity, makes throttle/brake more precise when using triggers, like on PS3
+author=Silent
+
+// Throttle
+patch=1,EE,10212160,extended,00000064
+// Brake
+patch=1,EE,102121A8,extended,00000064
+// Reverse
+patch=1,EE,10212238,extended,00000064

@@ -1,0 +1,8 @@
+gametitle=Gran Turismo 4 Online Public Beta [SCUS-97436] (U)
+comment=Adjusted tiggers sensitivity, makes throttle/brake more precise when using triggers, like on PS3
+author=Silent
+
+// Throttle
+patch=1,EE,10319114,extended,00000064
+// Brake
+patch=1,EE,1031911C,extended,00000064
