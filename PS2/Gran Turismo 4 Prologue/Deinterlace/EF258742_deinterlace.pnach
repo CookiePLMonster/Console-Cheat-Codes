@@ -1,0 +1,10 @@
+gametitle=Gran Turismo 4 Prologue [SCPS 15055] (J)
+comment=Deinterlace patch
+author=Silent
+
+// no interlacing
+patch=1,EE,D0503200,extended,00000002
+patch=1,EE,2045A2D4,extended,34020001 // deinterlace races
+patch=1,EE,D0503200,extended,00000000
+patch=1,EE,2045A2D4,extended,30420001
+patch=1,EE,2045329C,extended,00000000 // deinterlace menus
