@@ -1,0 +1,20 @@
+gametitle=NASCAR - Dirt to Daytona [SLUS 20441] (U)
+comment=Map camera controls to the right stick
+author=Silent
+
+patch=0,EE,10250E6C,extended,5C30 // reverse -> look_back
+
+// If you intend to unmap the camera controls, comment out the following lines with //
+// and re-save controller bindings by reopening the Controller menu.
+// Only then you may remove these codes safely.
+// DO NOT COMMENT OUT THE LINE ABOVE THIS COMMENT!
+patch=0,EE,10250DB0,extended,7630 // throttle2 = [nothing]
+patch=0,EE,10250DC8,extended,7630 // brake2 = [nothing]
+patch=0,EE,20250DEC,extended,26260720 // look_left = JB Left
+patch=0,EE,20250E00,extended,26260728 // look_right = JB Right
+patch=0,EE,20250E74,extended,26260518 // look_back = JB Down
+
+// Patch the control description in menu
+patch=0,EE,10251F2C,extended,76A8
+patch=0,EE,10251FD4,extended,76A8
+patch=0,EE,10252080,extended,76A8
