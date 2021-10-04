@@ -1,0 +1,23 @@
+gametitle=Gran Turismo 4 Prologue [SCES 52438] (E)
+comment=Adjustable units
+author=Silent
+
+// Speed and distance units
+// 0 - KMH/KM
+// 1 - MPH/Miles
+patch=1,EE,204FE370,extended,0
+
+// Power units
+// 0 - PS
+// 1 - HP
+// 2 - BHP
+// 3 - CV
+// 4 - kW
+// 5 - PF
+patch=1,EE,204FE374,extended,2
+
+// Torque units
+// 0 - kgf.m
+// 1 - ft.lb
+// 2 - NM
+patch=1,EE,204FE378,extended,0
