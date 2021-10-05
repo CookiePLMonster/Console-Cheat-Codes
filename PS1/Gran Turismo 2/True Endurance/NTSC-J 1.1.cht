@@ -1,0 +1,24 @@
+[True Endurance tweak]
+# "Help" the game unload segments that normally are left unwritten to,
+# so further cheat detection is more reliable. This is safe as it overwrites dead code.
+A00527D4 801EF999 # Reset the race overlay for Arcade
+80056F24 0000
+A005257C 000000F6 # Reset the race overlay for Simulation
+80056F24 0000
+# Sets 2h Rome Endurance to 255 laps and hides the lap counter
+A4056F24 260201C0
+# Set the endurance flag manually for 255 lap races, so replays work properly
+E01D56CB 00FF
+E0046EC5 0000
+30046EC5 0001
+# Time limited race off
+E0046EC5 0000
+A602CE44 00020006 # Restore the max laps counter
+# Time limited race on
+C4046EC5 0000
+A702CE44 00060002 # Turn off the max laps counter
+# Set laps to 255
+E01D56CB 0063
+301D56CB 00FF
+00000000 FFFF
+00000000 FFFF
