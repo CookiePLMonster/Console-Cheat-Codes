@@ -1,0 +1,6 @@
+gametitle=Gran Turismo 4 Online Public Beta [SCUS-97436] (U)
+comment=Autoboot in 480p
+author=Silent
+
+patch=1,EE,20312544,extended,34080001
+patch=1,EE,20312558,extended,AE481718
