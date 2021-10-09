@@ -11,10 +11,15 @@ Currently includes:
   * Gran Turismo 2
 
 * PS2 PNACH codes for:
-  * Gran Turismo 4 Prologue (PAL, SCES-52438)
-  * Gran Turismo 4 First Preview (NTSC-J, PCPX-96649)
-  * Gran Turismo 4 (PAL, SCES-51719)
-  * Tourist Trophy (PAL, SCES-53372)
+  * Gran Turismo 3 (SCUS-97102, SCES-50294)
+  * Gran Turismo Concept 2002 Tokyo-Geneva (SCES-50858, SCPS-55903)
+  * Gran Turismo 4 Prologue (SCES-52438, SCPS-15055)
+  * Gran Turismo 4 First Preview (PCPX-96649)
+  * Gran Turismo 4 (SCUS-97328, SCES-51719)
+  * Gran Turismo 4 Online (SCUS-97436)
+  * NASCAR: Dirt to Daytona (SLUS-20441)
+  * Test Drive: Eve of Destruction (SLUS-20910)
+  * Tourist Trophy (SCUS-97502, SCES-53372)
 
 
 # Credits
