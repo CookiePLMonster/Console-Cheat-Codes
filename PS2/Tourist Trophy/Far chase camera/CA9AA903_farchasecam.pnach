@@ -1,0 +1,16 @@
+gametitle=Tourist Trophy [SCES-53372] (E)
+comment=Added GT4 First Preview camera mode (far chase camera)
+author=Silent
+
+// Swap 4-byte instructions to 2-byte ones to make space
+patch=1,EE,2022D8DC,extended,84E30000
+patch=1,EE,1022D8E0,extended,0002
+patch=1,EE,1022D8F0,extended,0004
+patch=1,EE,2022D900,extended,84E30000
+
+patch=1,EE,1022D910,extended,0004
+patch=1,EE,0022D928,extended,40
+patch=1,EE,1022D93A,extended,8442
+
+patch=1,EE,2057F518,extended,00010000
+patch=1,EE,2057F51C,extended,00060014

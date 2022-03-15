@@ -1,0 +1,17 @@
+gametitle=Tourist Trophy [SCES-53372] (E)
+comment=GT3-like camera from GT4 First Preview
+author=Silent
+
+// Values changed by this cheat are hexadecimal.
+
+// Default parameters in this cheat correspond to the values from GT4 First Preview,
+// but you may freely customize them. For example, if you want to make the camera
+// even stiffer (like in GT5/6), increase the damper value.
+
+// Camera damper, default - 120
+// Higher values make the camera center quicker
+patch=1,EE,2057FF52,extended,1E1E1E1E // 30
+
+// Camera max angle, default - 15
+// Higher values make the camera lean further to the sides
+patch=1,EE,2057FF56,extended,0A0A0A0A // 10

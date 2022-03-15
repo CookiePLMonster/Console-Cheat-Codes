@@ -1,0 +1,16 @@
+gametitle=Gran Turismo 4 [SCUS-97328] (U)
+comment=Added GT4 First Preview camera mode (far chase camera)
+author=Silent
+
+// Swap 4-byte instructions to 2-byte ones to make space
+patch=1,EE,2037ACDC,extended,84E30000
+patch=1,EE,1037ACE0,extended,0002
+patch=1,EE,1037ACF0,extended,0004
+patch=1,EE,2037AD00,extended,84E30000
+
+patch=1,EE,1037AD10,extended,0004
+patch=1,EE,0037AD28,extended,40
+patch=1,EE,1037AD3A,extended,8442
+
+patch=1,EE,206211E8,extended,00010000
+patch=1,EE,206211EC,extended,00060014
