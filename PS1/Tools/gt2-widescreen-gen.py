@@ -1,5 +1,3 @@
-from parse import *
-
 def printVersions(versions):
     num = 1
     for v in versions:
@@ -31,9 +29,14 @@ while not 1 <= choice <= len(versions):
     choice = int(input(''))
 
 print('Select the aspect ratio to generate the patch for, in \'X:Y\' format (e.g. 16:9):')
-AR = None
-while not AR:
-    AR = parse('{:d}:{:d}', input(''))
+while True:
+    try:
+        AR = tuple(map(int, input('').split(':', 1)))
+        if len(AR) != 2:
+            continue
+        break
+    except ValueError:
+        continue
 
 origAR = (4, 3)
 
