@@ -1,0 +1,22 @@
+gametitle=Test Drive Unlimited [SLUS-21490] (U)
+comment=Throttle/brake mapped to triggers
+author=Silent
+
+// Select a (previously unused) controls set 2
+patch=1,EE,20392CC0,extended,34050002
+
+// Swap bumpers and triggers
+patch=1,EE,204E6C76,extended,4B434142 // BACK
+patch=1,EE,004E6C7A,extended,00
+patch=1,EE,204E6C96,extended,4B434142 // BACK
+patch=1,EE,004E6C9A,extended,00
+
+patch=1,EE,204E6CB6,extended,57524F46 // FORWARD
+patch=1,EE,204E6CBA,extended,00445241
+patch=1,EE,204E6CD6,extended,57524F46 // FORWARD
+patch=1,EE,204E6CDA,extended,00445241
+
+patch=1,EE,004E6978,extended,30 // BUTTON_10
+patch=1,EE,004E6998,extended,31 // BUTTON_11
+patch=1,EE,004E69B8,extended,32 // BUTTON_12
+patch=1,EE,004E69D8,extended,33 // BUTTON_13
