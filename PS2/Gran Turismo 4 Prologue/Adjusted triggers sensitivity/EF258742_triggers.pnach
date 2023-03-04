@@ -1,11 +1,14 @@
-gametitle=Gran Turismo 4 Prologue [SCPS 15055] (J)
+gametitle=Gran Turismo 4 Prologue [SCPS-15055] (J)
 comment=Adjusted tiggers sensitivity, makes throttle/brake more precise when using triggers, like on PS3
 comment=Makes sense to use only with remapped controls
-author=Silent
+author=Silent & Aero_
 
 // Throttle
-patch=1,EE,10402D0C,extended,00000064
+patch=1,EE,10402D0C,extended,0000005A
+patch=1,EE,20402D00,extended,00000000
 // Brake
-patch=1,EE,10402D6C,extended,00000064
+patch=1,EE,10402D6C,extended,0000005A
+patch=1,EE,20402D60,extended,00000000
 // Reverse
-patch=1,EE,10402E2C,extended,00000064
+patch=1,EE,10402E2C,extended,0000005A
+patch=1,EE,20402E20,extended,00000000

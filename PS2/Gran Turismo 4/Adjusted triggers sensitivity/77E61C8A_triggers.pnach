@@ -1,10 +1,13 @@
 gametitle=Gran Turismo 4 [SCUS-97328] (U)
 comment=Adjusted tiggers sensitivity, makes throttle/brake more precise when using triggers, like on PS3
-author=Silent
+author=Silent & Aero_
 
 // Throttle
-patch=1,EE,1043BEFC,extended,00000064
+patch=1,EE,1043BEFC,extended,0000005A
+patch=1,EE,2043BEF0,extended,00000000
 // Brake
-patch=1,EE,1043BF5C,extended,00000064
+patch=1,EE,1043BF5C,extended,0000005A
+patch=1,EE,2043BF50,extended,00000000
 // Reverse
-patch=1,EE,1043C01C,extended,00000064
+patch=1,EE,1043C01C,extended,0000005A
+patch=1,EE,2043C010,extended,00000000

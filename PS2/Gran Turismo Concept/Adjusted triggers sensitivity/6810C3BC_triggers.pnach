@@ -1,10 +1,13 @@
 gametitle=Gran Turismo Concept 2002 Tokyo-Geneva [SCPS-55903] (Asia)
 comment=Adjusted tiggers sensitivity, makes throttle/brake more precise when using triggers, like on PS3
-author=Silent
+author=Silent & Aero_
 
 // Throttle
-patch=1,EE,102106E0,extended,00000064
+patch=1,EE,102106E0,extended,0000005A
 // Brake
-patch=1,EE,10210728,extended,00000064
+patch=1,EE,10210728,extended,0000005A
 // Reverse
-patch=1,EE,102107C0,extended,00000064
+patch=1,EE,102107C0,extended,0000005A
+
+// Input multiplier
+patch=1,EE,202104D0,extended,00000000
