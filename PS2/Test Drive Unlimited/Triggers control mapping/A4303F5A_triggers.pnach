@@ -6,15 +6,17 @@ author=Silent
 patch=1,EE,20392CC0,extended,34050002
 
 // Swap bumpers and triggers
-patch=1,EE,204E6C76,extended,4B434142 // BACK
-patch=1,EE,004E6C7A,extended,00
-patch=1,EE,204E6C96,extended,4B434142 // BACK
-patch=1,EE,004E6C9A,extended,00
+patch=1,EE,104E6C76,extended,4142 // BACK
+patch=1,EE,204E6C78,extended,00004B43
+patch=1,EE,104E6C96,extended,4142 // BACK
+patch=1,EE,204E6C98,extended,00004B43
 
-patch=1,EE,204E6CB6,extended,57524F46 // FORWARD
-patch=1,EE,204E6CBA,extended,00445241
-patch=1,EE,204E6CD6,extended,57524F46 // FORWARD
-patch=1,EE,204E6CDA,extended,00445241
+patch=1,EE,104E6CB6,extended,4F46 // FORWARD
+patch=1,EE,204E6CB8,extended,52415752
+patch=1,EE,104E6CBC,extended,0044
+patch=1,EE,104E6CD6,extended,4F46 // FORWARD
+patch=1,EE,204E6CD8,extended,52415752
+patch=1,EE,104E6CDC,extended,0044
 
 patch=1,EE,004E6978,extended,30 // BUTTON_10
 patch=1,EE,004E6998,extended,31 // BUTTON_11
