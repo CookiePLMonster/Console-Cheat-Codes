@@ -1,0 +1,22 @@
+gametitle=Gran Turismo 3 [SCPS-15009] (J)
+comment=Adjustable units
+author=Silent & xan1242
+
+// Speed and distance units
+// 0 - KMH/KM
+// 1 - MPH/Miles
+patch=1,EE,202F20D8,extended,1
+
+// Power units
+// 0 - PS
+// 1 - HP
+// 2 - BHP
+// 3 - CV
+// 4 - kW
+patch=1,EE,202F20DC,extended,1
+
+// Torque units
+// 0 - kgf.m
+// 1 - ft.lb
+// 2 - NM
+patch=1,EE,202F20E0,extended,1
