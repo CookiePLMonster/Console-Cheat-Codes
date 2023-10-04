@@ -12,7 +12,7 @@ Currently includes:
 
 * PS2 PNACH codes for:
   * 007: Agent Under Fire (SLUS-20265, SLES-50539, SLPM-67505)
-  * Gran Turismo 3 (SCUS-97102, SCES-50294)
+  * Gran Turismo 3 (SCUS-97102, SCES-50294, SCPS-15009)
   * Gran Turismo Concept 2002 Tokyo-Geneva (SCES-50858, SCPS-55903)
   * Gran Turismo 4 Prologue (SCES-52438, SCPS-15055)
   * Gran Turismo 4 First Preview (PCPX-96649)
