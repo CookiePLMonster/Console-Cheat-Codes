@@ -1,14 +1,13 @@
 gametitle=Gran Turismo 3 [SCUS-97102] (U)
-comment=Adjustable units
-
-[Speed and distance units]
 author=Silent
+
+[Adjustable units]
+// Speed and distance units
 // 0 - KMH/KM
 // 1 - MPH/Miles
 patch=1,EE,202F59D8,extended,1
 
-[Power units]
-author=Silent
+// Power units
 // 0 - PS
 // 1 - HP
 // 2 - BHP
@@ -16,8 +15,7 @@ author=Silent
 // 4 - kW
 patch=1,EE,202F59DC,extended,1
 
-[Torque units]
-author=Silent
+// Torque units
 // 0 - kgf.m
 // 1 - ft.lb
 // 2 - NM
