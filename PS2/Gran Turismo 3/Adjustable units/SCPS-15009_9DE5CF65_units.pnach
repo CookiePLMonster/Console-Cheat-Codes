@@ -5,7 +5,7 @@ author=Silent & xan1242
 // Speed and distance units
 // 0 - KMH/KM
 // 1 - MPH/Miles
-patch=1,EE,202F20D8,extended,1
+patch=1,EE,202F20D8,extended,0
 
 // Power units
 // 0 - PS
@@ -13,10 +13,10 @@ patch=1,EE,202F20D8,extended,1
 // 2 - BHP
 // 3 - CV
 // 4 - kW
-patch=1,EE,202F20DC,extended,1
+patch=1,EE,202F20DC,extended,0
 
 // Torque units
 // 0 - kgf.m
 // 1 - ft.lb
 // 2 - NM
-patch=1,EE,202F20E0,extended,1
+patch=1,EE,202F20E0,extended,0
