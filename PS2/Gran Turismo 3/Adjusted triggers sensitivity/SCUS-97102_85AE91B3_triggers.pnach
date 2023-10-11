@@ -1,13 +1,16 @@
-gametitle=Gran Turismo 3 [PBPX-95503] (U)
+gametitle=Gran Turismo 3 [SCUS-97102] (U)
 comment=Adjusted tiggers sensitivity, makes throttle/brake more precise when using triggers, like on PS3
-author=Silent & Aero_
 
-// Throttle
+[Throttle]
+author=Silent & Aero_
 patch=1,EE,10211218,extended,0000005A
-// Brake
+[Brake]
+author=Silent & Aero_
 patch=1,EE,10211260,extended,0000005A
-// Reverse
+[Reverse]
+author=Silent & Aero_
 patch=1,EE,102112F0,extended,0000005A
 
-// Input multiplier
+[Input multiplier]
+author=Silent & Aero_
 patch=1,EE,20211014,extended,00000000
