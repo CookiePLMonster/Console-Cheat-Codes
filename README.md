@@ -24,6 +24,8 @@ Currently includes:
 
 
 # Credits
+* Aero_  - Improved Adjusted Trigger Sensitivity cheats
 * Arapapa - 007: Agent Under Fire, widescreen fix for on-foot sections
 * asasega - Gran Turismo/Gran Turismo 2, 60 FPS codes
 * HugoPocked - Gran Turismo 2, widescreen codes
+* xan1242 - Gran Turismo 3 JP cheats
