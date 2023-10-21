@@ -1,0 +1,6 @@
+﻿gametitle=Juiced (USA) (SLUS_208.72) (Jul 28, 2004 Preview Acclaim)
+
+[DNAS Bypass]
+author=Silent
+patch=0,EE,202B932C,extended,00000000
+patch=0,EE,102B9338,extended,00000005

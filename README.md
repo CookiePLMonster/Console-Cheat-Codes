@@ -18,6 +18,7 @@ Currently includes:
   * Gran Turismo 4 First Preview (PCPX-96649)
   * Gran Turismo 4 (SCUS-97328, SCES-51719)
   * Gran Turismo 4 Online (SCUS-97436)
+  * Juiced (Acclaim Prototypes) (SLUS-20872)
   * NASCAR: Dirt to Daytona (SLUS-20441)
   * Test Drive: Eve of Destruction (SLUS-20910)
   * Tourist Trophy (SCUS-97502, SCES-53372)

@@ -1,0 +1,7 @@
+﻿gametitle=Juiced (USA) (SLUS_208.72) (Jun 11, 2004 Preview Acclaim)
+
+[60 FPS]
+description=Use EE 130% overclock and disable Game Fixes to improve performance
+author=Silent
+patch=0,EE,201F7C5C,extended,00000000
+patch,0,EE,201F8518,extended,00000000

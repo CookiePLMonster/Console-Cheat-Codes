@@ -1,0 +1,9 @@
+﻿gametitle=Juiced (USA) (SLUS_208.72) (Jul 28, 2004 Preview Acclaim)
+
+[Fixed Widescreen]
+description=Correct 16:9 aspect ratio
+author=Silent
+gsaspectratio=16:9
+// 1.23578
+patch=0,EE,102710E8,extended,00003F9E
+patch=0,EE,102710EC,extended,00002E11

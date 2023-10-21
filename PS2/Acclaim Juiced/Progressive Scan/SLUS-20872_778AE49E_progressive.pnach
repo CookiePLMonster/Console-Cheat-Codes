@@ -1,0 +1,8 @@
+﻿gametitle=Juiced (USA) (SLUS_208.72) (Jun 11, 2004 Preview Acclaim)
+
+[No-Interlacing]
+gsinterlacemode=1
+description=Force Progressive Scan
+author=Silent
+patch=0,EE,101F2334,extended,00000000
+patch=0,EE,101F2354,extended,00000050
