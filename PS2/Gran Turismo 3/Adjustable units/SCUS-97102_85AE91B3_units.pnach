@@ -1,7 +1,7 @@
 gametitle=Gran Turismo 3 [SCUS-97102] (U)
-comment=Adjustable units
-author=Silent
 
+[Adjustable units]
+author=Silent
 // Speed and distance units
 // 0 - KMH/KM
 // 1 - MPH/Miles

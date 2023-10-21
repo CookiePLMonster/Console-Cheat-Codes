@@ -1,5 +1,7 @@
-gametitle=Gran Turismo 3 [PBPX-95503] (U)
-comment=Adjusted tiggers sensitivity, makes throttle/brake more precise when using triggers, like on PS3
+gametitle=Gran Turismo 3 [SCUS-97102] (U)
+
+[Adjusted triggers sensitivity]
+description=Makes throttle/brake more precise when using triggers, like on the PS3
 author=Silent & Aero_
 
 // Throttle

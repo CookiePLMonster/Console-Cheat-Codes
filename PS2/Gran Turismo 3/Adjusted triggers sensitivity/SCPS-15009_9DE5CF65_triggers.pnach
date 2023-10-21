@@ -1,0 +1,15 @@
+gametitle=Gran Turismo 3 [SCPS-15009] (J)
+
+[Adjusted triggers sensitivity]
+description=Makes throttle/brake more precise when using triggers, like on the PS3
+author=Silent & Aero_ & xan1242
+
+// Throttle
+patch=1,EE,1020E678,extended,0000005A
+// Brake
+patch=1,EE,1020E6C0,extended,0000005A
+// Reverse
+patch=1,EE,1020E750,extended,0000005A
+
+// Input multiplier
+patch=1,EE,2020E474,extended,00000000
