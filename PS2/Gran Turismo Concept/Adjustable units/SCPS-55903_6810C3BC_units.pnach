@@ -1,4 +1,4 @@
-gametitle=Gran Turismo 3 [SCES-50294] (E)
+gametitle=Gran Turismo Concept 2002 Tokyo-Geneva [SCPS-55903] (Asia)
 
 [Adjustable units]
 description=Change units by modifying this patch
@@ -7,7 +7,7 @@ author=Silent
 // Speed and distance units
 // 0 - KMH/KM
 // 1 - MPH/Miles
-patch=1,EE,202F7008,extended,0
+patch=1,EE,202BEEA0,extended,0
 
 // Power units
 // 0 - PS
@@ -15,10 +15,11 @@ patch=1,EE,202F7008,extended,0
 // 2 - BHP
 // 3 - CV
 // 4 - kW
-patch=1,EE,202F700C,extended,2
+// 5 - PF
+patch=1,EE,202BEEA4,extended,0
 
 // Torque units
 // 0 - kgf.m
 // 1 - ft.lb
 // 2 - NM
-patch=1,EE,202F7010,extended,0
+patch=1,EE,202BEEA8,extended,0

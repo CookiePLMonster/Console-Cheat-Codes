@@ -1,0 +1,25 @@
+gametitle=Gran Turismo 4 First Preview [PCPX-96649] (J)
+
+[Adjustable units]
+description=Change units by modifying this patch
+author=Silent
+
+// Speed and distance units - DON'T USE, CHANGE UNITS FROM THE OPTIONS MENU INSTEAD!
+// 0 - KMH/KM
+// 1 - MPH/Miles
+//patch=1,EE,20497A98,extended,0
+
+// Power units
+// 0 - PS
+// 1 - HP
+// 2 - BHP
+// 3 - CV
+// 4 - kW
+// 5 - PF
+patch=1,EE,20497A9C,extended,0
+
+// Torque units
+// 0 - kgf.m
+// 1 - ft.lb
+// 2 - NM
+patch=1,EE,20497AA0,extended,0

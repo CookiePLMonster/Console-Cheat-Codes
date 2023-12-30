@@ -1,0 +1,18 @@
+gametitle=Gran Turismo 4 [SCES-51719] (E)
+
+[Far chase camera]
+description=Added GT4 First Preview camera mode
+author=Silent
+
+// Swap 4-byte instructions to 2-byte ones to make space
+patch=1,EE,2037AFAC,extended,84E30000
+patch=1,EE,1037AFB0,extended,0002
+patch=1,EE,1037AFC0,extended,0004
+patch=1,EE,2037AFD0,extended,84E30000
+
+patch=1,EE,1037AFE0,extended,0004
+patch=1,EE,0037AFF8,extended,40
+patch=1,EE,1037B00A,extended,8442
+
+patch=1,EE,206211E8,extended,00010000
+patch=1,EE,206211EC,extended,00060014

@@ -1,0 +1,23 @@
+gametitle=Gran Turismo 4 Online Public Beta [SCUS-97436] (U)
+
+[GT3 Chase Camera]
+description=GT3-like camera from GT4 First Preview
+author=Silent
+
+// Values changed by this cheat are hexadecimal.
+// They are 1-byte each, repeated 4 times - so a value of 30 (0x1E)
+// corresponds to 1E1E1E1E etc,
+
+// Default parameters in this cheat correspond to the values from GT4 First Preview,
+// but you may freely customize them. For example, if you want to make the camera
+// even stiffer (like in GT5/6), increase the damper value.
+
+// Camera damper, default - 120
+// Higher values make the camera center quicker
+patch=1,EE,106635DA,extended,1E1E // 30
+patch=1,EE,106635DC,extended,1E1E // 30
+
+// Camera max angle, default - 15
+// Higher values make the camera lean further to the sides
+patch=1,EE,106635DE,extended,0A0A // 10
+patch=1,EE,106635E0,extended,0A0A // 10

@@ -1,7 +1,9 @@
 gametitle=Gran Turismo 3 [PBPX-95503] (U)
 
 [Adjustable units]
+description=Change units by modifying this patch
 author=Silent
+
 // Speed and distance units
 // 0 - KMH/KM
 // 1 - MPH/Miles

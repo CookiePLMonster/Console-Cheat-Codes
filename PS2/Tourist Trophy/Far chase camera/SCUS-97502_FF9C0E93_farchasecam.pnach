@@ -1,0 +1,18 @@
+gametitle=Tourist Trophy [SCUS-97502] (U)
+
+[Far chase camera]
+description=Added GT4 First Preview camera mode
+author=Silent
+
+// Swap 4-byte instructions to 2-byte ones to make space
+patch=1,EE,2032391C,extended,84E30000
+patch=1,EE,10323920,extended,0002
+patch=1,EE,10323930,extended,0004
+patch=1,EE,20323940,extended,84E30000
+
+patch=1,EE,10323950,extended,0004
+patch=1,EE,00323968,extended,40
+patch=1,EE,1032397A,extended,8442
+
+patch=1,EE,20583D88,extended,00010000
+patch=1,EE,20583D8C,extended,00060014

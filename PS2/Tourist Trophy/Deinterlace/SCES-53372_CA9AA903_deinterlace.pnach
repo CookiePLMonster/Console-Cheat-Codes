@@ -1,0 +1,7 @@
+gametitle=Tourist Trophy [SCES-53372] (E)
+
+[No-Interlacing]
+author=Silent
+
+// no interlacing
+patch=1,EE,204CAECC,extended,0000102D

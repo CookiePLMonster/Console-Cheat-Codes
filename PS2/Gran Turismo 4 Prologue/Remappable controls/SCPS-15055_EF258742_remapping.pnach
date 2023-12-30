@@ -1,0 +1,60 @@
+gametitle=Gran Turismo 4 Prologue [SCPS-15055] (J)
+
+[Remappable controls]
+description=Remap controls freely by modifying this patch
+author=Silent
+
+// NOTE: You may remap controls freely by modifying this patch
+// according to the documentation below. Please read carefully and rebind controls the way you wish.
+// You rebind actions by replacing the values of the code (not the address!) by the value corresponding
+// to the action you wish to bind. Values in brackets correspond to the internal IDs of actions and should
+// be ignored - use the values from the first column.
+// This cheat is pre-configured with stock game controls.
+// Remarks:
+// * Steering on DPad and Pause button may be remapped, but they are also hardcoded regardless
+// * Analog sticks may only be mapped to Steer Left (maps full steering)
+
+// 82 (FF) - None
+// 80 (00) - Steer Left
+// 86 (01) - Steer Right
+// 8C (02) - Shift Down
+// 8D (03) - Shift Up
+// 88 (04) - Throttle
+// 89 (05) - Brake
+// 87 (06) - Handbrake
+// 85 (07) - Reverse
+// 8A (08) - Look Back
+// 8B (09) - Change Camera
+// 8F (0A) - Pause
+// 8E (0B) - Toggle Racing Line (in School Mode)
+
+patch=1,EE,00402846,extended,80 // Left stick left/right
+patch=1,EE,0040284A,extended,82 // Left stick up/down
+
+patch=1,EE,0040283E,extended,82 // Right stick left/right
+patch=1,EE,00402842,extended,82 // Right stick up/down
+
+patch=1,EE,0040284E,extended,80 // DPad left
+patch=1,EE,00402812,extended,86 // DPad right
+patch=1,EE,00402852,extended,82 // DPad up
+patch=1,EE,00402856,extended,82 // DPad down
+
+patch=1,EE,00402816,extended,85 // Triangle
+patch=1,EE,0040281A,extended,87 // Circle
+patch=1,EE,0040281E,extended,88 // Cross
+patch=1,EE,00402822,extended,89 // Square
+
+patch=1,EE,00402826,extended,8A // L1
+patch=1,EE,0040282A,extended,8B // R1
+patch=1,EE,0040282E,extended,8C // L2
+patch=1,EE,00402832,extended,8D // R2
+patch=1,EE,0040285E,extended,82 // L3
+patch=1,EE,00402836,extended,8E // R3
+
+patch=1,EE,00402838,extended,8F // Start
+patch=1,EE,0040280A,extended,82 // Select
+
+// DO NOT MODIFY CODES BELOW!
+
+// Do not load controls from the memory card, as they cannot be modified anyway
+patch=1,EE,20404248,extended,00000000

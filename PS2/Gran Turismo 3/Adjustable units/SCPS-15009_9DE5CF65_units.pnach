@@ -1,7 +1,9 @@
 gametitle=Gran Turismo 3 [SCPS-15009] (J)
 
 [Adjustable units]
+description=Change units by modifying this patch
 author=Silent & xan1242
+
 // Speed and distance units
 // 0 - KMH/KM
 // 1 - MPH/Miles

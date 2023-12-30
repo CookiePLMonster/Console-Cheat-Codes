@@ -1,6 +1,0 @@
-gametitle=NASCAR - Dirt to Daytona [SLUS 20441] (U)
-comment=Extended valid birth year range (1900 to 2100)
-author=Silent
-
-patch=0,EE,10266068,extended,0834
-patch=0,EE,1026606C,extended,076C
