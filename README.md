@@ -23,6 +23,9 @@ Currently includes:
   * Test Drive: Eve of Destruction (SLUS-20910)
   * Tourist Trophy (SCUS-97502, SCES-53372)
 
+* PSP CWCheat codes for:
+  * Midnight Club: L.A. Remix (ULUS-10383, ULES-01144, ULJS-00180, ULJM-05904)
+
 
 # Credits
 * Aero_  - Improved Adjusted Trigger Sensitivity cheats
