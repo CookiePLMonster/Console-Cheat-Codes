@@ -1,0 +1,522 @@
+[
+  {
+    "id": 0,
+    "name": "JOY_EVENT_NULL"
+  },
+  {
+    "id": 1,
+    "name": "JOY_EVENT_TYPE_CHANGED"
+  },
+  {
+    "id": 2,
+    "name": "JOY_EVENT_EXIT_DEMO_DISC"
+  },
+  {
+    "id": 3,
+    "name": "JOY_EVENT_SCROLL_UP"
+  },
+  {
+    "id": 4,
+    "name": "JOY_EVENT_SCROLL_DOWN"
+  },
+  {
+    "id": 5,
+    "name": "JOY_EVENT_SCROLL_LEFT"
+  },
+  {
+    "id": 6,
+    "name": "JOY_EVENT_SCROLL_RIGHT"
+  },
+  {
+    "id": 7,
+    "name": "JOY_EVENT_START"
+  },
+  {
+    "id": 8,
+    "name": "JOY_EVENT_SELECT"
+  },
+  {
+    "id": 9,
+    "name": "JOY_EVENT_MENU_SELECT"
+  },
+  {
+    "id": 10,
+    "name": "JOY_EVENT_MENU_CANCEL"
+  },
+  {
+    "id": 11,
+    "name": "JOY_EVENT_MENU_BACK"
+  },
+  {
+    "id": 12,
+    "name": "JOY_EVENT_MENU_HELP"
+  },
+  {
+    "id": 13,
+    "name": "JOY_EVENT_MENU_L1"
+  },
+  {
+    "id": 14,
+    "name": "JOY_EVENT_MENU_L2"
+  },
+  {
+    "id": 15,
+    "name": "JOY_EVENT_MENU_R1"
+  },
+  {
+    "id": 16,
+    "name": "JOY_EVENT_MENU_R2"
+  },
+  {
+    "id": 17,
+    "name": "JOY_EVENT_MENU_SQUARE"
+  },
+  {
+    "id": 18,
+    "name": "JOY_EVENT_MENU_ANALOG_LEFT"
+  },
+  {
+    "id": 19,
+    "name": "JOY_EVENT_MENU_ANALOG_RIGHT"
+  },
+  {
+    "id": 20,
+    "name": "JOY_EVENT_MENU_ANALOG_UP"
+  },
+  {
+    "id": 21,
+    "name": "JOY_EVENT_MENU_ANALOG_DOWN"
+  },
+  {
+    "id": 22,
+    "name": "JOY_EVENT_SKIP_DEMO_MODE"
+  },
+  {
+    "id": 23,
+    "name": "JOY_EVENT_MAIN_MENU_SELECT_TRANSMISSION"
+  },
+  {
+    "id": 24,
+    "name": "JOY_EVENT_ANY"
+  },
+  {
+    "id": 25,
+    "name": "JOY_EVENT_EXIT_EDIT_TEXT"
+  },
+  {
+    "id": 26,
+    "name": "JOY_EVENT_CLEAR_TEXT"
+  },
+  {
+    "id": 27,
+    "name": "JOY_EVENT_CANCEL_EDIT_TEXT"
+  },
+  {
+    "id": 28,
+    "name": "JOY_EVENT_DELETE_CHAR"
+  },
+  {
+    "id": 29,
+    "name": "JOY_EVENT_ROTATE_LETTER_UP"
+  },
+  {
+    "id": 30,
+    "name": "JOY_EVENT_ROTATE_LETTER_DOWN"
+  },
+  {
+    "id": 31,
+    "name": "JOY_EVENT_PREV_CHAR"
+  },
+  {
+    "id": 32,
+    "name": "JOY_EVENT_NEXT_CHAR"
+  },
+  {
+    "id": 33,
+    "name": "JOY_EVENT_CARSEL_CHANGE_MODE"
+  },
+  {
+    "id": 34,
+    "name": "JOY_EVENT_CARSEL_UNLOCK"
+  },
+  {
+    "id": 35,
+    "name": "JOY_EVENT_CARSEL_ORBIT_LEFT"
+  },
+  {
+    "id": 36,
+    "name": "JOY_EVENT_CARSEL_ORBIT_RIGHT"
+  },
+  {
+    "id": 37,
+    "name": "JOY_EVENT_CARSEL_ORBIT_UP"
+  },
+  {
+    "id": 38,
+    "name": "JOY_EVENT_CARSEL_ORBIT_DOWN"
+  },
+  {
+    "id": 41,
+    "name": "JOY_EVENT_CARSEL_ORBIT_LEFTRIGHT"
+  },
+  {
+    "id": 42,
+    "name": "JOY_EVENT_CARSEL_ORBIT_UPDOWN"
+  },
+  {
+    "id": 43,
+    "name": "JOY_EVENT_CARSEL_ORBIT_INOUT"
+  },
+  {
+    "id": 45,
+    "name": "JOY_EVENT_CHANGE_DEBUG_CAMERA"
+  },
+  {
+    "id": 46,
+    "name": "JOY_EVENT_DEBUG_CAMERA_ROTATE_RIGHT"
+  },
+  {
+    "id": 47,
+    "name": "JOY_EVENT_DEBUG_CAMERA_ROTATE_LEFT"
+  },
+  {
+    "id": 48,
+    "name": "JOY_EVENT_DEBUG_CAMERA_ROTATE_UP"
+  },
+  {
+    "id": 49,
+    "name": "JOY_EVENT_DEBUG_CAMERA_ROTATE_DOWN"
+  },
+  {
+    "id": 50,
+    "name": "JOY_EVENT_DEBUG_CAMERA_MOVE_CLOSER"
+  },
+  {
+    "id": 51,
+    "name": "JOY_EVENT_DEBUG_CAMERA_MOVE_FARTHER"
+  },
+  {
+    "id": 52,
+    "name": "JOY_EVENT_DEBUG_CAMERA_NEXT_CAR"
+  },
+  {
+    "id": 53,
+    "name": "JOY_EVENT_DEBUG_CAMERA_PREV_CAR"
+  },
+  {
+    "id": 54,
+    "name": "JOY_EVENT_DEBUG_CAMERA_FOLLOW_CHOPPER"
+  },
+  {
+    "id": 55,
+    "name": "JOY_EVENT_DEBUG_CAMERA_TURN_LEFT"
+  },
+  {
+    "id": 56,
+    "name": "JOY_EVENT_DEBUG_CAMERA_TURN_RIGHT"
+  },
+  {
+    "id": 57,
+    "name": "JOY_EVENT_DEBUG_CAMERA_TURN_DOWN"
+  },
+  {
+    "id": 58,
+    "name": "JOY_EVENT_DEBUG_CAMERA_TURN_UP"
+  },
+  {
+    "id": 59,
+    "name": "JOY_EVENT_DEBUG_CAMERA_MOVE_DOWN"
+  },
+  {
+    "id": 60,
+    "name": "JOY_EVENT_DEBUG_CAMERA_MOVE_UP"
+  },
+  {
+    "id": 61,
+    "name": "JOY_EVENT_DEBUG_CAMERA_MOVE_FWD"
+  },
+  {
+    "id": 62,
+    "name": "JOY_EVENT_DEBUG_CAMERA_MOVE_BACK"
+  },
+  {
+    "id": 63,
+    "name": "JOY_EVENT_DEBUG_CAMERA_MOVE_LEFT"
+  },
+  {
+    "id": 64,
+    "name": "JOY_EVENT_DEBUG_CAMERA_MOVE_RIGHT"
+  },
+  {
+    "id": 65,
+    "name": "JOY_EVENT_DEBUG_CAMERA_TURBO"
+  },
+  {
+    "id": 66,
+    "name": "JOY_EVENT_DEBUG_CAMERA_SUPER_TURBO"
+  },
+  {
+    "id": 67,
+    "name": "JOY_EVENT_DEBUG_CAMERA_FORWARD_BLINK"
+  },
+  {
+    "id": 68,
+    "name": "JOY_EVENT_DEBUG_CAMERA_BACKWARD_BLINK"
+  },
+  {
+    "id": 69,
+    "name": "JOY_EVENT_DEBUG_CAMERA_DROP_CAR"
+  },
+  {
+    "id": 70,
+    "name": "JOY_EVENT_DEBUG_CAMERA_ROTATE_LEFTRIGHT"
+  },
+  {
+    "id": 71,
+    "name": "JOY_EVENT_DEBUG_CAMERA_ROTATE_UPDOWN"
+  },
+  {
+    "id": 72,
+    "name": "JOY_EVENT_DEBUG_CAMERA_STRAFE_LEFTRIGHT"
+  },
+  {
+    "id": 73,
+    "name": "JOY_EVENT_DEBUG_CAMERA_INOUT"
+  },
+  {
+    "id": 74,
+    "name": "JOY_EVENT_TRACKROUTE_EDITOR_TURN_LEFTRIGHT"
+  },
+  {
+    "id": 75,
+    "name": "JOY_EVENT_TRACKROUTE_EDITOR_TURN_UPDOWN"
+  },
+  {
+    "id": 76,
+    "name": "JOY_EVENT_TRACKROUTE_EDITOR_DRIVE_FORWARDBACKWARD"
+  },
+  {
+    "id": 77,
+    "name": "JOY_EVENT_TRACKROUTE_EDITOR_DRIVE_LEFTRIGHT"
+  },
+  {
+    "id": 78,
+    "name": "JOY_EVENT_TRACKROUTE_EDITOR_DRIVE_TURBO"
+  },
+  {
+    "id": 79,
+    "name": "JOY_EVENT_TRACKROUTE_EDITOR_MOVE_UP"
+  },
+  {
+    "id": 80,
+    "name": "JOY_EVENT_TRACKROUTE_EDITOR_MOVE_DOWN"
+  },
+  {
+    "id": 81,
+    "name": "JOY_EVENT_TRACKROUTE_EDITOR_DPAD_UP"
+  },
+  {
+    "id": 82,
+    "name": "JOY_EVENT_TRACKROUTE_EDITOR_DPAD_DOWN"
+  },
+  {
+    "id": 83,
+    "name": "JOY_EVENT_TRACKROUTE_EDITOR_DPAD_LEFT"
+  },
+  {
+    "id": 84,
+    "name": "JOY_EVENT_TRACKROUTE_EDITOR_DPAD_RIGHT"
+  },
+  {
+    "id": 85,
+    "name": "JOY_EVENT_TRACKROUTE_EDITOR_NEXT_ROUTE"
+  },
+  {
+    "id": 86,
+    "name": "JOY_EVENT_TRACKROUTE_EDITOR_NEXT_POINT"
+  },
+  {
+    "id": 87,
+    "name": "JOY_EVENT_TRACKROUTE_EDITOR_PREV_POINT"
+  },
+  {
+    "id": 88,
+    "name": "JOY_EVENT_TRACKROUTE_EDITOR_RESET_POS"
+  },
+  {
+    "id": 89,
+    "name": "JOY_EVENT_TRACKROUTE_EDITOR_EDIT_RIGHT_WIDTH"
+  },
+  {
+    "id": 90,
+    "name": "JOY_EVENT_TRACKROUTE_EDITOR_EDIT_LEFT_WIDTH"
+  },
+  {
+    "id": 91,
+    "name": "JOY_EVENT_TRACKROUTE_EDITOR_EDIT_POSITION"
+  },
+  {
+    "id": 92,
+    "name": "JOY_EVENT_TOGGLE_TRACK_MARKER"
+  },
+  {
+    "id": 93,
+    "name": "JOY_EVENT_CAMERA_POV_CHANGE"
+  },
+  {
+    "id": 94,
+    "name": "JOY_EVENT_CAMERA_LOOKBACK"
+  },
+  {
+    "id": 95,
+    "name": "JOY_EVENT_ZONE_FREEZE"
+  },
+  {
+    "id": 96,
+    "name": "JOY_EVENT_ZONE_PREVIEW"
+  },
+  {
+    "id": 97,
+    "name": "JOY_EVENT_ZONE_SLOMO"
+  },
+  {
+    "id": 98,
+    "name": "JOY_EVENT_ZONE_WARP"
+  },
+  {
+    "id": 99,
+    "name": "JOY_EVENT_REPLAY_SKIP"
+  },
+  {
+    "id": 100,
+    "name": "JOY_EVENT_REPLAY_PAUSE"
+  },
+  {
+    "id": 101,
+    "name": "JOY_EVENT_REPLAY_PREVIOUS_MARKER"
+  },
+  {
+    "id": 102,
+    "name": "JOY_EVENT_REPLAY_NEXT_MARKER"
+  },
+  {
+    "id": 103,
+    "name": "JOY_EVENT_REPLAY_PLAYBACK_SPEED"
+  },
+  {
+    "id": 104,
+    "name": "JOY_EVENT_REPLAY_CAMERA_ANGLE"
+  },
+  {
+    "id": 105,
+    "name": "JOY_EVENT_REPLAY_CAMERA_TARGET"
+  },
+  {
+    "id": 106,
+    "name": "JOY_EVENT_REPLAY_HELP"
+  },
+  {
+    "id": 107,
+    "name": "JOY_EVENT_REPLAY_HIDE_TIMELINE"
+  },
+  {
+    "id": 108,
+    "name": "JOY_EVENT_REPLAY_MARK_DEMO"
+  },
+  {
+    "id": 109,
+    "name": "JOY_EVENT_REPLAY_TEST_DEMO"
+  },
+  {
+    "id": 110,
+    "name": "JOY_EVENT_REPLAY_ERASE_DEMO"
+  },
+  {
+    "id": 111,
+    "name": "JOY_EVENT_STEER"
+  },
+  {
+    "id": 112,
+    "name": "JOY_EVENT_STEER_ANALOG"
+  },
+  {
+    "id": 113,
+    "name": "JOY_EVENT_THROTTLE"
+  },
+  {
+    "id": 114,
+    "name": "JOY_EVENT_THROTTLE_ANALOG"
+  },
+  {
+    "id": 115,
+    "name": "JOY_EVENT_THROTTLE_ANALOG_ALTERNATE"
+  },
+  {
+    "id": 116,
+    "name": "JOY_EVENT_BRAKE"
+  },
+  {
+    "id": 117,
+    "name": "JOY_EVENT_BRAKE_ANALOG"
+  },
+  {
+    "id": 118,
+    "name": "JOY_EVENT_BRAKE_ANALOG_ALTERNATE"
+  },
+  {
+    "id": 119,
+    "name": "JOY_EVENT_REVERSE"
+  },
+  {
+    "id": 120,
+    "name": "JOY_EVENT_REVERSE_ANALOG"
+  },
+  {
+    "id": 121,
+    "name": "JOY_EVENT_EBRAKE"
+  },
+  {
+    "id": 122,
+    "name": "JOY_EVENT_EBRAKE_ANALOG"
+  },
+  {
+    "id": 123,
+    "name": "JOY_EVENT_SHIFTUP"
+  },
+  {
+    "id": 124,
+    "name": "JOY_EVENT_SHIFTDOWN"
+  },
+  {
+    "id": 125,
+    "name": "JOY_EVENT_RESET_CAR"
+  },
+  {
+    "id": 126,
+    "name": "JOY_EVENT_HONK_HORN"
+  },
+  {
+    "id": 127,
+    "name": "JOY_EVENT_NITRO_BOOST"
+  },
+  {
+    "id": 128,
+    "name": "JOY_EVENT_REQUEST_ROADBLOCK"
+  },
+  {
+    "id": 129,
+    "name": "JOY_EVENT_REQUEST_HELICOPTER"
+  },
+  {
+    "id": 130,
+    "name": "JOY_EVENT_CYCLE_HUD"
+  },
+  {
+    "id": 131,
+    "name": "JOY_EVENT_PAUSE"
+  },
+  {
+    "id": 132,
+    "name": "JOY_EVENT_SKIP"
+  }
+]
