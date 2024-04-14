@@ -155,39 +155,40 @@ def generatePnachFile(elfPath, eventNamesPath, scannerConfigsPath, output):
         if len(NEW_CONFIGS) > origNumScannerConfigs:
             sys.exit('Out of space for scanner configs!')
 
-    with open(output, 'w') as pnach:
-        EVENT_IDS = getEventIds()
-        def getKeyEventId(key):
-            match = re.match(r'JOY_EVENT_UNK_(\d+)', key)
-            if match:
-                return int(match.group(1))
-            return EVENT_IDS[key]
+        with open(output, 'w') as pnach:
+            EVENT_IDS = getEventIds()
+            def getKeyEventId(key):
+                match = re.match(r'JOY_EVENT_UNK_(\d+)', key)
+                if match:
+                    return int(match.group(1))
+                return EVENT_IDS[key]
 
 
-        LINE_TEMPLATE = 'patch=0,EE,20{0:X},extended,{1:X}\n'
-        if origNumScannerConfigs != len(NEW_CONFIGS):
-            pnach.write(LINE_TEMPLATE.format(VERSION_DATA.numScannerConfigsPtr, len(NEW_CONFIGS)))
-        for config in NEW_CONFIGS:
-            buf = struct.pack(SCANNER_CONFIG_FORMAT,
-                              *padList(config['configs'], 8),
-                              getKeyEventId(config['eventName']),
-                              VERSION_DATA.scanners.inverse.get(config.get('scanner'), 0),
-                              *config['xor'],
-                              config['index'][0] << 5 | (config['shift'][0] & 0x1F),
-                              config['index'][1] << 5 | (config['shift'][1] & 0x1F),
-                              config['invert'], config['graph'], config['unk16'],
-                              *padList(config['glyph'], 2),
-                              0 # We don't care about 'button'
-            )
+            LINE_TEMPLATE = 'patch=0,EE,20{0:X},extended,{1:X}\n'
+            if origNumScannerConfigs != len(NEW_CONFIGS):
+                pnach.write(LINE_TEMPLATE.format(VERSION_DATA.numScannerConfigsPtr, len(NEW_CONFIGS)))
+            for config in NEW_CONFIGS:
+                buf = struct.pack(SCANNER_CONFIG_FORMAT,
+                                *padList(config['configs'], 8),
+                                getKeyEventId(config['eventName']),
+                                VERSION_DATA.scanners.inverse.get(config.get('scanner'), 0),
+                                *config['xor'],
+                                config['index'][0] << 5 | (config['shift'][0] & 0x1F),
+                                config['index'][1] << 5 | (config['shift'][1] & 0x1F),
+                                config['invert'], config['graph'], config['unk16'],
+                                *padList(config['glyph'], 2),
+                                0 # We don't care about 'button'
+                )
 
-            # Unpack again to integers so we can generate a pnach
-            patchedMem = struct.unpack('<9I', buf)
-            offset = startOffset
-            for i in range(8):
-                pnach.write(LINE_TEMPLATE.format(offset, patchedMem[i]))
-                offset += 4
+                # Unpack again to integers so we can generate a pnach
+                patchedMem = struct.unpack('<9I', buf)
+                offset = startOffset
+                for i in range(8):
+                    if readU32(elf, vaddrToOffset(offset)) != patchedMem[i]:
+                        pnach.write(LINE_TEMPLATE.format(offset, patchedMem[i]))
+                    offset += 4
 
-            startOffset += ENTRY_SIZE
+                startOffset += ENTRY_SIZE
 
 
 if __name__ == "__main__":
