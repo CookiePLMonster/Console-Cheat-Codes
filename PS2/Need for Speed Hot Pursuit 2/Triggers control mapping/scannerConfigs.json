@@ -3044,32 +3044,7 @@
   },
   {
     "configs": [
-      20
-    ],
-    "eventName": "JOY_EVENT_THROTTLE_ANALOG",
-    "scanner": "Analog",
-    "xor": [
-      1,
-      0
-    ],
-    "index": [
-      4,
-      0
-    ],
-    "shift": [
-      25,
-      27
-    ],
-    "invert": 0,
-    "graph": 3,
-    "unk16": 0,
-    "glyph": [
-      141
-    ],
-    "button": "R2"
-  },
-  {
-    "configs": [
+      20,
       21
     ],
     "eventName": "JOY_EVENT_THROTTLE_ANALOG",
@@ -3084,7 +3059,7 @@
     ],
     "shift": [
       25,
-      28
+      0
     ],
     "invert": 0,
     "graph": 3,
@@ -3209,32 +3184,7 @@
   },
   {
     "configs": [
-      20
-    ],
-    "eventName": "JOY_EVENT_BRAKE_ANALOG",
-    "scanner": "Analog",
-    "xor": [
-      1,
-      0
-    ],
-    "index": [
-      4,
-      0
-    ],
-    "shift": [
-      15,
-      27
-    ],
-    "invert": 0,
-    "graph": 2,
-    "unk16": 0,
-    "glyph": [
-      140
-    ],
-    "button": "L2"
-  },
-  {
-    "configs": [
+      20,
       21
     ],
     "eventName": "JOY_EVENT_BRAKE_ANALOG",
@@ -3249,7 +3199,7 @@
     ],
     "shift": [
       15,
-      28
+      0
     ],
     "invert": 0,
     "graph": 2,
@@ -3404,7 +3354,32 @@
   {
     "configs": [
       20,
-      21,
+      21
+    ],
+    "eventName": "JOY_EVENT_STEER",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 0,
+    "graph": 1,
+    "unk16": 0,
+    "glyph": [
+      148
+    ],
+    "button": "ANALOGL"
+  },
+  {
+    "configs": [
       30,
       31,
       32,
@@ -3825,34 +3800,33 @@
   },
   {
     "configs": [
-      20
+      20,
+      21
     ],
     "eventName": "JOY_EVENT_ZONE_FREEZE",
     "scanner": "DigitalDown",
     "xor": [
       1,
-      1
+      0
     ],
     "index": [
       0,
       0
     ],
     "shift": [
-      24,
-      27
+      23,
+      0
     ],
     "invert": 0,
     "graph": 0,
     "unk16": 0,
     "glyph": [
-      140,
-      139
+      132
     ],
-    "button": "R1 + L2"
+    "button": "DPADL"
   },
   {
     "configs": [
-      21,
       30,
       31,
       32,
@@ -3910,34 +3884,33 @@
   },
   {
     "configs": [
-      20
+      20,
+      21
     ],
     "eventName": "JOY_EVENT_ZONE_PREVIEW",
     "scanner": "DigitalDown",
     "xor": [
       1,
-      1
+      0
     ],
     "index": [
       0,
       0
     ],
     "shift": [
-      25,
-      27
+      21,
+      0
     ],
     "invert": 0,
     "graph": 0,
     "unk16": 0,
     "glyph": [
-      141,
-      139
+      133
     ],
-    "button": "R1 + R2"
+    "button": "DPADR"
   },
   {
     "configs": [
-      21,
       30,
       31,
       32,
@@ -4027,34 +4000,33 @@
   },
   {
     "configs": [
-      20
+      20,
+      21
     ],
     "eventName": "JOY_EVENT_REQUEST_HELICOPTER",
     "scanner": "DigitalDown",
     "xor": [
       1,
-      1
+      0
     ],
     "index": [
       0,
       0
     ],
     "shift": [
-      24,
-      27
+      23,
+      0
     ],
     "invert": 0,
     "graph": 0,
     "unk16": 0,
     "glyph": [
-      140,
-      139
+      132
     ],
-    "button": "R1 + L2"
+    "button": "DPADL"
   },
   {
     "configs": [
-      21,
       30,
       31,
       32,
@@ -4112,34 +4084,33 @@
   },
   {
     "configs": [
-      20
+      20,
+      21
     ],
     "eventName": "JOY_EVENT_REQUEST_ROADBLOCK",
     "scanner": "DigitalDown",
     "xor": [
       1,
-      1
+      0
     ],
     "index": [
       0,
       0
     ],
     "shift": [
-      25,
-      27
+      21,
+      0
     ],
     "invert": 0,
     "graph": 0,
     "unk16": 0,
     "glyph": [
-      141,
-      139
+      133
     ],
-    "button": "R1 + R2"
+    "button": "DPADR"
   },
   {
     "configs": [
-      21,
       30,
       31,
       32,
@@ -4170,10 +4141,6 @@
   },
   {
     "configs": [
-      0,
-      0,
-      0,
-      0,
       34
     ],
     "eventName": "JOY_EVENT_REQUEST_ROADBLOCK",
@@ -5444,7 +5411,11 @@
   },
   {
     "configs": [
-      255
+      30,
+      31,
+      32,
+      33,
+      34
     ],
     "eventName": "JOY_EVENT_STEER",
     "scanner": "DigitalSteer",
