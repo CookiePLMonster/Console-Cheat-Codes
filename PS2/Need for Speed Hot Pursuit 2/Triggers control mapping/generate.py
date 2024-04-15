@@ -164,7 +164,7 @@ def generatePnachFile(elfPath, eventNamesPath, scannerConfigsPath, output):
                 return EVENT_IDS[key]
 
 
-            LINE_TEMPLATE = 'patch=0,EE,20{0:X},extended,{1:X}\n'
+            LINE_TEMPLATE = 'patch=0,EE,{0:X},extended,{1:X}\n'
             if origNumScannerConfigs != len(NEW_CONFIGS):
                 pnach.write(LINE_TEMPLATE.format(VERSION_DATA.numScannerConfigsPtr, len(NEW_CONFIGS)))
             for config in NEW_CONFIGS:
@@ -185,7 +185,7 @@ def generatePnachFile(elfPath, eventNamesPath, scannerConfigsPath, output):
                 offset = startOffset
                 for i in range(8):
                     if readU32(elf, vaddrToOffset(offset)) != patchedMem[i]:
-                        pnach.write(LINE_TEMPLATE.format(offset, patchedMem[i]))
+                        pnach.write(LINE_TEMPLATE.format(offset | 0x20000000, patchedMem[i]))
                     offset += 4
 
                 startOffset += ENTRY_SIZE
