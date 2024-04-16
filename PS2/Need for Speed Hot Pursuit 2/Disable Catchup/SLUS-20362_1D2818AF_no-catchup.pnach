@@ -1,0 +1,10 @@
+gametitle=Need for Speed - Hot Pursuit 2 (NTSC-U) (SLUS-20362)
+
+[Disable Catchup]
+author=Silent
+description=Disables Catchup (rubberbanding) in Quick Race and Career races.
+
+patch=0,EE,10216D26,extended,AE00
+patch=0,EE,102171EA,extended,AC60
+patch=0,EE,10217866,extended,AC60
+patch=0,EE,101ED66E,extended,AE00
