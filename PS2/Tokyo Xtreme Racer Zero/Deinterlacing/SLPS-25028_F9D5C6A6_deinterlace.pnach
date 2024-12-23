@@ -1,0 +1,13 @@
+gametitle=Shutokou Battle 0 (J)(SLPS-25028)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+author=asasega, Silent
+
+patch=0,EE,2015D09C,extended,00005025
+patch=0,EE,2015D15C,extended,00005025
+patch=0,EE,2015CFB0,extended,00005025 // Rear view mirror
+patch=0,EE,2015D224,extended,00005025 // Unknown in race
+patch=0,EE,201DCF94,extended,00005025 // Car preview in menus
+patch=0,EE,202630C4,extended,00000000

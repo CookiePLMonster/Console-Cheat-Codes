@@ -23,6 +23,7 @@ Currently includes:
   * Need for Speed: Hot Pursuit 2 (SLUS-20362, SLES-50731)
   * Test Drive: Eve of Destruction (SLUS-20910)
   * Test Drive Unlimited (SLUS-21490)
+  * Tokyo Xtreme Racer: Zero (SLUS-20189, SLES-50115, SLPS-25028)
   * Tourist Trophy (SCUS-97502, SCES-53372)
 
 * PSP CWCheat codes for:
@@ -32,6 +33,8 @@ Currently includes:
 # Credits
 * Aero_  - Improved Adjusted Trigger Sensitivity cheats
 * Arapapa - 007: Agent Under Fire, widescreen fix for on-foot sections
-* asasega - Gran Turismo/Gran Turismo 2, 60 FPS codes
+* asasega - Gran Turismo/Gran Turismo 2, 60 FPS codes; Tokyo Xtreme Racer: Zero, deinterlace patch
 * HugoPocked - Gran Turismo 2, widescreen codes
+* JakeMR2 - Tokyo Xtreme Racer: Zero, porting cheats to NTSC-J
+* VIRGIN KLM - Tokyo Xtreme Racer: Zero, widescreen fix
 * xan1242 - Gran Turismo 3 JP cheats

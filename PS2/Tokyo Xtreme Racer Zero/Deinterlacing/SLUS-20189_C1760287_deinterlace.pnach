@@ -1,0 +1,13 @@
+gametitle=Tokyo Extreme Racer - Zero (U) (SLUS-20189)
+
+[No-Interlacing]
+description=Attempts to disable interlaced offset rendering.
+gsinterlacemode=1
+author=asasega, Silent
+
+patch=0,EE,201686EC,extended,00005025
+patch=0,EE,201687AC,extended,00005025
+patch=0,EE,20168600,extended,00005025 // Rear view mirror
+patch=0,EE,20168874,extended,00005025 // Unknown in race
+patch=0,EE,201E5C14,extended,00005025 // Car preview in menus
+patch=0,EE,20149FF4,extended,00000000
