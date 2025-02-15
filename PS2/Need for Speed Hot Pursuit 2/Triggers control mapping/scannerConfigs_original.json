@@ -1,7 +1,7 @@
 [
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_TYPE_CHANGED",
     "scanner": "TypeChanged",
@@ -25,7 +25,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_EXIT_DEMO_DISC",
     "scanner": "DigitalDown",
@@ -49,7 +49,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_SCROLL_UP",
     "scanner": "DigitalRepeat",
@@ -73,7 +73,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_SCROLL_DOWN",
     "scanner": "DigitalRepeat",
@@ -97,7 +97,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_SCROLL_LEFT",
     "scanner": "DigitalRepeat",
@@ -121,7 +121,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_SCROLL_RIGHT",
     "scanner": "DigitalRepeat",
@@ -145,7 +145,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_START",
     "scanner": "DigitalDown",
@@ -169,7 +169,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_SELECT",
     "scanner": "DigitalDown",
@@ -217,7 +217,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_MENU_SELECT",
     "scanner": "DigitalDown",
@@ -241,7 +241,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_MENU_CANCEL",
     "scanner": "DigitalDown",
@@ -265,7 +265,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_MENU_BACK",
     "scanner": "DigitalDown",
@@ -289,7 +289,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_MENU_HELP",
     "scanner": "DigitalUpOrDown",
@@ -313,7 +313,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_MENU_SQUARE",
     "scanner": "DigitalUpOrDown",
@@ -337,7 +337,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_MENU_L1",
     "scanner": "DigitalDown",
@@ -361,7 +361,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_MENU_L2",
     "scanner": "DigitalDown",
@@ -385,7 +385,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_MENU_R1",
     "scanner": "DigitalDown",
@@ -409,7 +409,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_MENU_R2",
     "scanner": "DigitalDown",
@@ -557,7 +557,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_ANY",
     "scanner": "DigitalAnyButton",
@@ -581,7 +581,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_SKIP_DEMO_MODE",
     "scanner": "DigitalAnyButton",
@@ -605,7 +605,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_MAIN_MENU_SELECT_TRANSMISSION",
     "scanner": "DigitalUpOrDown",
@@ -629,7 +629,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_EXIT_EDIT_TEXT",
     "scanner": "DigitalDown",
@@ -653,7 +653,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_CLEAR_TEXT",
     "scanner": "DigitalDown",
@@ -677,7 +677,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_CANCEL_EDIT_TEXT",
     "scanner": "DigitalDown",
@@ -701,7 +701,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DELETE_CHAR",
     "scanner": "DigitalDown",
@@ -725,7 +725,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_ROTATE_LETTER_UP",
     "scanner": "DigitalRepeat",
@@ -749,7 +749,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_ROTATE_LETTER_DOWN",
     "scanner": "DigitalRepeat",
@@ -773,7 +773,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_PREV_CHAR",
     "scanner": "DigitalRepeat",
@@ -797,7 +797,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_NEXT_CHAR",
     "scanner": "DigitalRepeat",
@@ -908,7 +908,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_CARSEL_CHANGE_MODE",
     "scanner": "DigitalUpOrDown",
@@ -932,7 +932,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_CARSEL_UNLOCK",
     "scanner": "DigitalUpOrDown",
@@ -956,7 +956,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_CARSEL_ORBIT_LEFT",
     "scanner": "DigitalUpOrDown",
@@ -980,7 +980,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_CARSEL_ORBIT_RIGHT",
     "scanner": "DigitalUpOrDown",
@@ -1004,7 +1004,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_CARSEL_ORBIT_UP",
     "scanner": "DigitalUpOrDown",
@@ -1028,7 +1028,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_CARSEL_ORBIT_DOWN",
     "scanner": "DigitalUpOrDown",
@@ -1052,7 +1052,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_UNK_39",
     "scanner": "DigitalUpOrDown",
@@ -1076,7 +1076,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_UNK_40",
     "scanner": "DigitalUpOrDown",
@@ -1100,7 +1100,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_CHANGE_DEBUG_CAMERA",
     "scanner": "DigitalDown",
@@ -1124,7 +1124,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_ROTATE_RIGHT",
     "scanner": "DigitalUpOrDown",
@@ -1148,7 +1148,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_ROTATE_LEFT",
     "scanner": "DigitalUpOrDown",
@@ -1172,7 +1172,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_ROTATE_UP",
     "scanner": "DigitalUpOrDown",
@@ -1196,7 +1196,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_ROTATE_DOWN",
     "scanner": "DigitalUpOrDown",
@@ -1220,7 +1220,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_MOVE_CLOSER",
     "scanner": "DigitalUpOrDown",
@@ -1244,7 +1244,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_MOVE_FARTHER",
     "scanner": "DigitalUpOrDown",
@@ -1268,7 +1268,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_NEXT_CAR",
     "scanner": "DigitalUpOrDown",
@@ -1292,7 +1292,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_PREV_CAR",
     "scanner": "DigitalUpOrDown",
@@ -1316,7 +1316,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_FOLLOW_CHOPPER",
     "scanner": "DigitalUpOrDown",
@@ -1342,7 +1342,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_TURN_LEFT",
     "scanner": "DigitalUpOrDown",
@@ -1366,7 +1366,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_TURN_RIGHT",
     "scanner": "DigitalUpOrDown",
@@ -1390,7 +1390,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_TURN_DOWN",
     "scanner": "DigitalUpOrDown",
@@ -1414,7 +1414,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_TURN_UP",
     "scanner": "DigitalUpOrDown",
@@ -1438,7 +1438,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_MOVE_DOWN",
     "scanner": "DigitalUpOrDown",
@@ -1462,7 +1462,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_MOVE_UP",
     "scanner": "DigitalUpOrDown",
@@ -1486,7 +1486,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_MOVE_FWD",
     "scanner": "DigitalUpOrDown",
@@ -1510,7 +1510,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_MOVE_BACK",
     "scanner": "DigitalUpOrDown",
@@ -1534,7 +1534,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_MOVE_LEFT",
     "scanner": "DigitalUpOrDown",
@@ -1558,7 +1558,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_MOVE_RIGHT",
     "scanner": "DigitalUpOrDown",
@@ -1582,7 +1582,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_TURBO",
     "scanner": "DigitalUpOrDown",
@@ -1606,7 +1606,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_SUPER_TURBO",
     "scanner": "DigitalUpOrDown",
@@ -1680,7 +1680,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_DEBUG_CAMERA_DROP_CAR",
     "scanner": "DigitalDown",
@@ -1920,7 +1920,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_DRIVE_TURBO",
     "scanner": "DigitalUpOrDown",
@@ -1944,7 +1944,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_MOVE_UP",
     "scanner": "DigitalUpOrDown",
@@ -1968,7 +1968,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_MOVE_DOWN",
     "scanner": "DigitalUpOrDown",
@@ -1992,7 +1992,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_DPAD_UP",
     "scanner": "DigitalUpOrDown",
@@ -2016,7 +2016,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_DPAD_DOWN",
     "scanner": "DigitalUpOrDown",
@@ -2040,7 +2040,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_DPAD_LEFT",
     "scanner": "DigitalUpOrDown",
@@ -2064,7 +2064,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_DPAD_RIGHT",
     "scanner": "DigitalUpOrDown",
@@ -2088,7 +2088,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_NEXT_ROUTE",
     "scanner": "DigitalUpOrDown",
@@ -2112,7 +2112,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_NEXT_POINT",
     "scanner": "DigitalUpOrDown",
@@ -2136,7 +2136,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_PREV_POINT",
     "scanner": "DigitalUpOrDown",
@@ -2160,7 +2160,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_RESET_POS",
     "scanner": "DigitalUpOrDown",
@@ -2184,7 +2184,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_EDIT_RIGHT_WIDTH",
     "scanner": "DigitalUpOrDown",
@@ -2208,7 +2208,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_EDIT_LEFT_WIDTH",
     "scanner": "DigitalUpOrDown",
@@ -2232,7 +2232,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_EDIT_POSITION",
     "scanner": "DigitalUpOrDown",
@@ -2256,7 +2256,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_TOGGLE_TRACK_MARKER",
     "scanner": "DigitalDoublePress",
@@ -2280,7 +2280,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_REPLAY_SKIP",
     "scanner": "DigitalDown",
@@ -2304,7 +2304,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_REPLAY_PAUSE",
     "scanner": "DigitalDown",
@@ -2328,7 +2328,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_REPLAY_PREVIOUS_MARKER",
     "scanner": "DigitalDown",
@@ -2352,7 +2352,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_REPLAY_NEXT_MARKER",
     "scanner": "DigitalDown",
@@ -2376,7 +2376,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_REPLAY_PLAYBACK_SPEED",
     "scanner": "DigitalDown",
@@ -2400,7 +2400,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_REPLAY_CAMERA_ANGLE",
     "scanner": "DigitalDown",
@@ -2424,7 +2424,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_REPLAY_CAMERA_TARGET",
     "scanner": "DigitalDown",
@@ -2448,7 +2448,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_REPLAY_HELP",
     "scanner": "DigitalDown",
@@ -2472,7 +2472,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_REPLAY_HIDE_TIMELINE",
     "scanner": "DigitalDown",
@@ -2496,7 +2496,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_REPLAY_MARK_DEMO",
     "scanner": "DigitalUpOrDown",
@@ -2520,7 +2520,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_REPLAY_TEST_DEMO",
     "scanner": "DigitalDown",
@@ -2544,7 +2544,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_REPLAY_ERASE_DEMO",
     "scanner": "DigitalUpOrDown",
@@ -5445,7 +5445,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_STEER",
     "scanner": "DigitalSteer",
@@ -5471,7 +5471,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_CYCLE_HUD",
     "scanner": "DigitalDown",
@@ -5497,7 +5497,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_PAUSE",
     "scanner": "DigitalDown",
@@ -5523,7 +5523,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_SKIP",
     "scanner": "DigitalDown",
@@ -5549,7 +5549,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_RESET_CAR",
     "scanner": "DigitalUpOrDown",
@@ -5575,7 +5575,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_HONK_HORN",
     "scanner": "DigitalUpOrDown",
@@ -5601,7 +5601,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_UNK_133",
     "scanner": "DigitalDown",
@@ -5625,7 +5625,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_UNK_134",
     "scanner": "DigitalDown",
@@ -5649,7 +5649,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_UNK_135",
     "scanner": "DigitalDown",
@@ -5673,7 +5673,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_UNK_136",
     "scanner": "DigitalDown",
@@ -5697,7 +5697,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_UNK_137",
     "scanner": "DigitalDown",
@@ -5721,7 +5721,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_UNK_138",
     "scanner": "DigitalDown",
@@ -5745,7 +5745,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_UNK_139",
     "scanner": "DigitalDown",
@@ -5769,7 +5769,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_UNK_140",
     "scanner": "DigitalDown",
@@ -5793,7 +5793,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_UNK_141",
     "scanner": "DigitalDown",
@@ -5817,7 +5817,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_UNK_142",
     "scanner": "DigitalDown",
@@ -5841,7 +5841,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_UNK_143",
     "scanner": "DigitalDown",
@@ -5865,7 +5865,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_UNK_144",
     "scanner": "DigitalDown",
@@ -5889,7 +5889,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_UNK_145",
     "scanner": "DigitalDown",
@@ -5913,7 +5913,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_UNK_146",
     "scanner": "DigitalDown",
@@ -5937,7 +5937,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_UNK_147",
     "scanner": "DigitalDown",
@@ -5961,7 +5961,7 @@
   },
   {
     "configs": [
-      255
+      -1
     ],
     "eventName": "JOY_EVENT_UNK_148",
     "scanner": "DigitalDown",

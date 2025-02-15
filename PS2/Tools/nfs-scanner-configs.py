@@ -7,7 +7,7 @@ import sys
 from bidict import bidict
 from collections import namedtuple
 
-SCANNER_CONFIG_FORMAT = '<8BII2B2BbBH2II'
+SCANNER_CONFIG_FORMAT = '<8bII2B2BbBH2II'
 
 def getVersionData(elf):
     hash = binascii.crc32(elf) & 0xFFFFFFFF
@@ -194,14 +194,19 @@ def generatePnachFile(elfPath, eventNamesPath, scannerConfigsPath, output):
 if __name__ == "__main__":
     import argparse
 
-    parser = argparse.ArgumentParser(description='Need for Speed Hot Pursuit 2 Scanner Config Tool.')
-    parser.add_argument('--elf', type=str, help='path to game elf')
-    parser.add_argument('--event-names', type=str, dest='event_names', help='path to the JSON file with event names')
-    parser.add_argument('--scanner-configs', type=str, dest='scanner_configs', help='path to the JSON file with scanner configs')
+    parser = argparse.ArgumentParser(description='NFS Scanner Config Tool.')
+    parser.add_argument('--elf', type=str, help='path to game elf', metavar='ELF_PATH', required=True)
+    parser.add_argument('--event-names', type=str, dest='event_names', metavar='EVENT_NAMES_JSON',
+                        help='path to the JSON file with event names (required by --dump-scanner-configs and --generate-pnach)')
+    parser.add_argument('--scanner-configs', type=str, dest='scanner_configs', metavar='SCANNER_CONFIGS_JSON',
+                        help='path to the JSON file with scanner configs (required by --generate-pnach)')
 
-    parser.add_argument('--dump-event-names', type=str, dest='dump_event_names', help='dump event names to a JSON file')
-    parser.add_argument('--dump-scanner-configs', type=str, dest='dump_scanner_configs', help='dump scanner configs to a JSON file')
-    parser.add_argument('--generate-pnach', type=str, dest='generate_pnach', help='generate a patch file with new scanner configs')
+    parser.add_argument('--dump-event-names', type=str, dest='dump_event_names', metavar='EVENT_NAMES_JSON',
+                        help='dump event names to a JSON file')
+    parser.add_argument('--dump-scanner-configs', type=str, dest='dump_scanner_configs', metavar='SCANNER_CONFIGS_JSON',
+                        help='dump scanner configs to a JSON file')
+    parser.add_argument('--generate-pnach', type=str, dest='generate_pnach', metavar='PNACH_PATH',
+                        help='generate a patch file with new scanner configs')
 
     args = parser.parse_args()
 
