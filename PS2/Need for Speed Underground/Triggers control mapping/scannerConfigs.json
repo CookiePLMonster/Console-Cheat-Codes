@@ -1,0 +1,6640 @@
+[
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_TYPE_CHANGED",
+    "scanner": "TypeChanged",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      0,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_EXIT_DEMO_DISC",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      1
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      19,
+      16
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": "START + SELECT"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_SCROLL_UP",
+    "scanner": "DigitalRepeat",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      20,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_SCROLL_DOWN",
+    "scanner": "DigitalRepeat",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      22,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_SCROLL_LEFT",
+    "scanner": "DigitalRepeat",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      23,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_SCROLL_RIGHT",
+    "scanner": "DigitalRepeat",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      21,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_START",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      19,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_SELECT",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      40
+    ],
+    "eventName": "JOY_EVENT_MENU_SELECT",
+    "scanner": "DigitalDown",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      15,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_MENU_SELECT",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      30,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_MENU_CANCEL",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      31,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_MENU_BACK",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      28,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_MENU_HELP",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      29,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_MENU_SQUARE",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      31,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_MENU_L1",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      26,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_MENU_L2",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_MENU_R1",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      27,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_MENU_R2",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      25,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_FENG_START",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      19,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3904362145,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_FENG_BUTTON0",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 4272491059,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_FENG_BUTTON1",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      31,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 4287041668,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_FENG_BUTTON2",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 1939697777,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_FENG_BUTTON3",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      25,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 1939697975,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_FENG_LTRIGGER",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      26,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 1939697776,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_FENG_RTRIGGER",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      27,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 1939697974,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_FENG_SELECT",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      30,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3885330813,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_FENG_CANCEL",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      28,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 449399977,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_FENG_HELP",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      29,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3651282181,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_FENG_PAD_UP",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      20,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3886429121,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_FENG_PAD_DOWN",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      22,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3886429104,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_FENG_PAD_LEFT",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      23,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3886429112,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_FENG_PAD_RIGHT",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      21,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3886429118,
+    "button": ""
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      23,
+      30,
+      31,
+      32,
+      33
+    ],
+    "eventName": "JOY_EVENT_FENG_PAD_UP_ALTERNATE",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 1,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3147535344,
+    "button": ""
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      23,
+      30,
+      31,
+      32,
+      33
+    ],
+    "eventName": "JOY_EVENT_FENG_PAD_DOWN_ALTERNATE",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 2,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3147535344,
+    "button": ""
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      23,
+      30,
+      31,
+      32,
+      33
+    ],
+    "eventName": "JOY_EVENT_FENG_PAD_LEFT_ALTERNATE",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 1,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3147535344,
+    "button": ""
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      23,
+      30,
+      31,
+      32,
+      33
+    ],
+    "eventName": "JOY_EVENT_FENG_PAD_RIGHT_ALTERNATE",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 2,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3147535344,
+    "button": ""
+  },
+  {
+    "configs": [
+      34
+    ],
+    "eventName": "JOY_EVENT_FENG_PAD_UP_ALTERNATE",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 1,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3147535344,
+    "button": ""
+  },
+  {
+    "configs": [
+      34
+    ],
+    "eventName": "JOY_EVENT_FENG_PAD_DOWN_ALTERNATE",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 2,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3147535344,
+    "button": ""
+  },
+  {
+    "configs": [
+      34
+    ],
+    "eventName": "JOY_EVENT_FENG_PAD_LEFT_ALTERNATE",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 1,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3147535344,
+    "button": ""
+  },
+  {
+    "configs": [
+      34
+    ],
+    "eventName": "JOY_EVENT_FENG_PAD_RIGHT_ALTERNATE",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 2,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3147535344,
+    "button": ""
+  },
+  {
+    "configs": [
+      50,
+      51,
+      52,
+      53,
+      60,
+      61,
+      62,
+      63
+    ],
+    "eventName": "JOY_EVENT_FENG_PAD_UP_ALTERNATE",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      2,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3886429121,
+    "button": ""
+  },
+  {
+    "configs": [
+      50,
+      51,
+      52,
+      53,
+      60,
+      61,
+      62,
+      63
+    ],
+    "eventName": "JOY_EVENT_FENG_PAD_DOWN_ALTERNATE",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      3,
+      0
+    ],
+    "shift": [
+      0,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3886429104,
+    "button": ""
+  },
+  {
+    "configs": [
+      50,
+      51,
+      52,
+      53,
+      60,
+      61,
+      62,
+      63
+    ],
+    "eventName": "JOY_EVENT_FENG_PAD_LEFT_ALTERNATE",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 1,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3886429112,
+    "button": ""
+  },
+  {
+    "configs": [
+      50,
+      51,
+      52,
+      53,
+      60,
+      61,
+      62,
+      63
+    ],
+    "eventName": "JOY_EVENT_FENG_PAD_RIGHT_ALTERNATE",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 2,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3886429118,
+    "button": ""
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "eventName": "JOY_EVENT_MENU_ANALOG_LEFT",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 1,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "eventName": "JOY_EVENT_MENU_ANALOG_RIGHT",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 2,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "eventName": "JOY_EVENT_MENU_ANALOG_UP",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 1,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "eventName": "JOY_EVENT_MENU_ANALOG_DOWN",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 2,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_ANY",
+    "scanner": "DigitalAnyButton",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 16,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_SKIP_DEMO_MODE",
+    "scanner": "DigitalAnyButton",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 16,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_MAIN_MENU_SELECT_TRANSMISSION",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      26,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_UNK_44",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      1
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_EXIT_EDIT_TEXT",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      30,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_CLEAR_TEXT",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      29,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_CANCEL_EDIT_TEXT",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      28,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DELETE_CHAR",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      31,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_ROTATE_LETTER_UP",
+    "scanner": "DigitalRepeat",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      20,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_ROTATE_LETTER_DOWN",
+    "scanner": "DigitalRepeat",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      22,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_PREV_CHAR",
+    "scanner": "DigitalRepeat",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      23,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_NEXT_CHAR",
+    "scanner": "DigitalRepeat",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      21,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "eventName": "JOY_EVENT_CARSEL_ORBIT_LEFTRIGHT",
+    "scanner": "Analog",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      0,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1508878723,
+    "button": ""
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "eventName": "JOY_EVENT_CARSEL_ORBIT_UPDOWN",
+    "scanner": "Analog",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1508878723,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_CHANGE_DEBUG_CAMERA",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_ROTATE_RIGHT",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      21,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_ROTATE_LEFT",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      23,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_ROTATE_UP",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      20,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_ROTATE_DOWN",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      22,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_MOVE_CLOSER",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_MOVE_FARTHER",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      26,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_NEXT_CAR",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      27,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_PREV_CAR",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      25,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_FOLLOW_CHOPPER",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      18,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": "R3"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_TURN_LEFT",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      23,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_TURN_RIGHT",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      21,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_TURN_DOWN",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      20,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_TURN_UP",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      22,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_MOVE_DOWN",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_MOVE_UP",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      26,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_MOVE_FWD",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      30,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_MOVE_BACK",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      28,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_MOVE_LEFT",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      31,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_MOVE_RIGHT",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      29,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_TURBO",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      27,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_SUPER_TURBO",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      25,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      20,
+      30
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_FORWARD_BLINK",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      18,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      20,
+      30
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_BACKWARD_BLINK",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      17,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_DROP_CAR",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      19,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      30,
+      31,
+      32
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_ROTATE_LEFTRIGHT",
+    "scanner": "Analog",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 0,
+    "graph": 1,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      30,
+      31,
+      32
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_ROTATE_UPDOWN",
+    "scanner": "Analog",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 0,
+    "graph": 1,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      30,
+      31,
+      32
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_STRAFE_LEFTRIGHT",
+    "scanner": "Analog",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      0,
+      0
+    ],
+    "invert": 0,
+    "graph": 1,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      30,
+      31,
+      32
+    ],
+    "eventName": "JOY_EVENT_DEBUG_CAMERA_INOUT",
+    "scanner": "Analog",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 0,
+    "graph": 1,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      20,
+      30
+    ],
+    "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_TURN_LEFTRIGHT",
+    "scanner": "Analog",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 0,
+    "graph": 1,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      20,
+      30
+    ],
+    "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_TURN_UPDOWN",
+    "scanner": "Analog",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 0,
+    "graph": 1,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      20,
+      30
+    ],
+    "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_DRIVE_FORWARDBACKWARD",
+    "scanner": "Analog",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 0,
+    "graph": 1,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      20,
+      30
+    ],
+    "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_DRIVE_LEFTRIGHT",
+    "scanner": "Analog",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      0,
+      0
+    ],
+    "invert": 0,
+    "graph": 1,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_DRIVE_TURBO",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      18,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_MOVE_UP",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      26,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_MOVE_DOWN",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_DPAD_UP",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      20,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_DPAD_DOWN",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      22,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_DPAD_LEFT",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      23,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_DPAD_RIGHT",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      21,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_NEXT_ROUTE",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      28,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_NEXT_POINT",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      25,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_PREV_POINT",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      27,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_RESET_POS",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      19,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_EDIT_RIGHT_WIDTH",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      29,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_EDIT_LEFT_WIDTH",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      31,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_TRACKROUTE_EDITOR_EDIT_POSITION",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      30,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_TOGGLE_TRACK_MARKER",
+    "scanner": "DigitalDoublePress",
+    "xor": [
+      1,
+      1
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      25,
+      24
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_REPLAY_SKIP",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      19,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_REPLAY_PAUSE",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      30,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_REPLAY_PREVIOUS_MARKER",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      23,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_REPLAY_NEXT_MARKER",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      21,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_REPLAY_PLAYBACK_SPEED",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      31,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_REPLAY_CAMERA_ANGLE",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      28,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_REPLAY_CAMERA_TARGET",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      26,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_REPLAY_HELP",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      29,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_REPLAY_HIDE_TIMELINE",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_REPLAY_MARK_DEMO",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      25,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_REPLAY_TEST_DEMO",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_REPLAY_ERASE_DEMO",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      27,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "eventName": "JOY_EVENT_STEER",
+    "scanner": "DigitalSteer",
+    "xor": [
+      1,
+      1
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      23,
+      21
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 900454037,
+    "button": "DPAD"
+  },
+  {
+    "configs": [
+      10,
+      11
+    ],
+    "eventName": "JOY_EVENT_THROTTLE",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      30,
+      0
+    ],
+    "invert": -1,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3885330813,
+    "button": "CROSS"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      12,
+      13
+    ],
+    "eventName": "JOY_EVENT_THROTTLE",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      31,
+      0
+    ],
+    "invert": -1,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 4287041668,
+    "button": "SQUARE"
+  },
+  {
+    "configs": [
+      10,
+      11
+    ],
+    "eventName": "JOY_EVENT_BRAKE",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      31,
+      0
+    ],
+    "invert": -1,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 4287041668,
+    "button": "SQUARE"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      12,
+      13
+    ],
+    "eventName": "JOY_EVENT_BRAKE",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      30,
+      0
+    ],
+    "invert": -1,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3885330813,
+    "button": "CROSS"
+  },
+  {
+    "configs": [
+      10,
+      0,
+      12
+    ],
+    "eventName": "JOY_EVENT_EBRAKE",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      27,
+      28
+    ],
+    "invert": -1,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697974,
+    "button": "R1"
+  },
+  {
+    "configs": [
+      0,
+      11,
+      0,
+      13
+    ],
+    "eventName": "JOY_EVENT_EBRAKE",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      29,
+      0
+    ],
+    "invert": -1,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3651282181,
+    "button": "CIRCLE"
+  },
+  {
+    "configs": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "eventName": "JOY_EVENT_SHIFTUP",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      25,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697975,
+    "button": "R2"
+  },
+  {
+    "configs": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "eventName": "JOY_EVENT_SHIFTDOWN",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697777,
+    "button": "L2"
+  },
+  {
+    "configs": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "eventName": "JOY_EVENT_CAMERA_POV_CHANGE",
+    "scanner": "DigitalDown",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      28,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 449399977,
+    "button": "TRIANGLE"
+  },
+  {
+    "configs": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "eventName": "JOY_EVENT_NITRO_BOOST",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      1
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      26,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697776,
+    "button": "L1"
+  },
+  {
+    "configs": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "eventName": "JOY_EVENT_REQUEST_HELICOPTER",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      1
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      24,
+      28
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1010046502,
+    "button": "TRIANGLE + L2"
+  },
+  {
+    "configs": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "eventName": "JOY_EVENT_REQUEST_ROADBLOCK",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      1
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      25,
+      28
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1010046700,
+    "button": "TRIANGLE + R2"
+  },
+  {
+    "configs": [
+      10,
+      0,
+      12
+    ],
+    "eventName": "JOY_EVENT_HONK_HORN",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      29,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3651282181,
+    "button": "CIRCLE"
+  },
+  {
+    "configs": [
+      0,
+      11,
+      0,
+      13
+    ],
+    "eventName": "JOY_EVENT_HONK_HORN",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      27,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697974,
+    "button": "R1"
+  },
+  {
+    "configs": [
+      21
+    ],
+    "eventName": "JOY_EVENT_THROTTLE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      3,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 0,
+    "graph": 3,
+    "unk16": 0,
+    "glyph": 3885330813,
+    "button": "CROSS"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      22,
+      23
+    ],
+    "eventName": "JOY_EVENT_THROTTLE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      3,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 0,
+    "graph": 3,
+    "unk16": 0,
+    "glyph": 4287041668,
+    "button": "SQUARE"
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "eventName": "JOY_EVENT_THROTTLE_ANALOG_ALTERNATE",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 1,
+    "graph": 3,
+    "unk16": 0,
+    "glyph": 2491425160,
+    "button": "ANALOGR"
+  },
+  {
+    "configs": [
+      21
+    ],
+    "eventName": "JOY_EVENT_BRAKE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      3,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 0,
+    "graph": 2,
+    "unk16": 0,
+    "glyph": 4287041668,
+    "button": "SQUARE"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      22,
+      23
+    ],
+    "eventName": "JOY_EVENT_BRAKE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      3,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 0,
+    "graph": 2,
+    "unk16": 0,
+    "glyph": 3885330813,
+    "button": "CROSS"
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "eventName": "JOY_EVENT_BRAKE_ANALOG_ALTERNATE",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 2,
+    "graph": 2,
+    "unk16": 0,
+    "glyph": 3037026395,
+    "button": "ANALOGR"
+  },
+  {
+    "configs": [
+      22
+    ],
+    "eventName": "JOY_EVENT_EBRAKE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      4,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697974,
+    "button": "R1"
+  },
+  {
+    "configs": [
+      0,
+      21
+    ],
+    "eventName": "JOY_EVENT_EBRAKE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      3,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3651282181,
+    "button": "CIRCLE"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      0,
+      23
+    ],
+    "eventName": "JOY_EVENT_EBRAKE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      4,
+      0
+    ],
+    "shift": [
+      0,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697776,
+    "button": "L1"
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "eventName": "JOY_EVENT_STEER_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 0,
+    "graph": 1,
+    "unk16": 0,
+    "glyph": 3996907801,
+    "button": "ANALOGL"
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "eventName": "JOY_EVENT_STEER",
+    "scanner": "DigitalSteer",
+    "xor": [
+      1,
+      1
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      23,
+      21
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 900454037,
+    "button": "DPAD"
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "eventName": "JOY_EVENT_DRAG_RACE_CHANGE_LANE_LEFT_ANALOG",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 1,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 900454037,
+    "button": "DPAD"
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "eventName": "JOY_EVENT_DRAG_RACE_CHANGE_LANE_RIGHT_ANALOG",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 2,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 900454037,
+    "button": "DPAD"
+  },
+  {
+    "configs": [
+      20
+    ],
+    "eventName": "JOY_EVENT_SHIFTUP",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      28,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 449399977,
+    "button": "TRIANGLE"
+  },
+  {
+    "configs": [
+      20
+    ],
+    "eventName": "JOY_EVENT_SHIFTDOWN",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      31,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 4287041668,
+    "button": "SQUARE"
+  },
+  {
+    "configs": [
+      23
+    ],
+    "eventName": "JOY_EVENT_CAMERA_LOOKBACK",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      29,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3651282181,
+    "button": "CIRCLE"
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22
+    ],
+    "eventName": "JOY_EVENT_CAMERA_LOOKBACK",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      26,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697776,
+    "button": "L1"
+  },
+  {
+    "configs": [
+      21,
+      22,
+      23
+    ],
+    "eventName": "JOY_EVENT_CAMERA_POV_CHANGE",
+    "scanner": "DigitalDown",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      28,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 449399977,
+    "button": "TRIANGLE"
+  },
+  {
+    "configs": [
+      20
+    ],
+    "eventName": "JOY_EVENT_NITRO_BOOST",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      1
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      29,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3651282181,
+    "button": "CIRCLE"
+  },
+  {
+    "configs": [
+      0,
+      21,
+      0,
+      23
+    ],
+    "eventName": "JOY_EVENT_NITRO_BOOST",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      1
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      27,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697974,
+    "button": "R1"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      22
+    ],
+    "eventName": "JOY_EVENT_NITRO_BOOST",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      1
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      29,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3651282181,
+    "button": "CIRCLE"
+  },
+  {
+    "configs": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "eventName": "JOY_EVENT_HONK_HORN",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      20,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3886429121,
+    "button": "DPAD UP"
+  },
+  {
+    "configs": [
+      30,
+      31,
+      0,
+      33
+    ],
+    "eventName": "JOY_EVENT_THROTTLE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      3,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 0,
+    "graph": 3,
+    "unk16": 0,
+    "glyph": 3885330813,
+    "button": "CROSS"
+  },
+  {
+    "configs": [
+      20,
+      32
+    ],
+    "eventName": "JOY_EVENT_THROTTLE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      4,
+      0
+    ],
+    "shift": [
+      25,
+      0
+    ],
+    "invert": 0,
+    "graph": 3,
+    "unk16": 0,
+    "glyph": 1939697975,
+    "button": "R2"
+  },
+  {
+    "configs": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "eventName": "JOY_EVENT_THROTTLE_ANALOG_ALTERNATE",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 1,
+    "graph": 3,
+    "unk16": 0,
+    "glyph": 2491425160,
+    "button": "ANALOGR"
+  },
+  {
+    "configs": [
+      30,
+      31
+    ],
+    "eventName": "JOY_EVENT_BRAKE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      3,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 0,
+    "graph": 2,
+    "unk16": 0,
+    "glyph": 4287041668,
+    "button": "SQUARE"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      0,
+      33
+    ],
+    "eventName": "JOY_EVENT_BRAKE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      3,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 0,
+    "graph": 2,
+    "unk16": 0,
+    "glyph": 3651282181,
+    "button": "CIRCLE"
+  },
+  {
+    "configs": [
+      20,
+      32
+    ],
+    "eventName": "JOY_EVENT_BRAKE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      4,
+      0
+    ],
+    "shift": [
+      15,
+      0
+    ],
+    "invert": 0,
+    "graph": 2,
+    "unk16": 0,
+    "glyph": 1939697777,
+    "button": "L2"
+  },
+  {
+    "configs": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "eventName": "JOY_EVENT_BRAKE_ANALOG_ALTERNATE",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 2,
+    "graph": 2,
+    "unk16": 0,
+    "glyph": 3037026395,
+    "button": "ANALOGR"
+  },
+  {
+    "configs": [
+      30
+    ],
+    "eventName": "JOY_EVENT_EBRAKE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      4,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697974,
+    "button": "R1"
+  },
+  {
+    "configs": [
+      0,
+      31
+    ],
+    "eventName": "JOY_EVENT_EBRAKE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      3,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3651282181,
+    "button": "CIRCLE"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      32,
+      33
+    ],
+    "eventName": "JOY_EVENT_EBRAKE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      3,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 4287041668,
+    "button": "SQUARE"
+  },
+  {
+    "configs": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "eventName": "JOY_EVENT_STEER_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 0,
+    "graph": 1,
+    "unk16": 0,
+    "glyph": 3996907801,
+    "button": "ANALOGL"
+  },
+  {
+    "configs": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "eventName": "JOY_EVENT_STEER",
+    "scanner": "DigitalSteer",
+    "xor": [
+      1,
+      1
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      23,
+      21
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 900454037,
+    "button": "DPAD"
+  },
+  {
+    "configs": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "eventName": "JOY_EVENT_DRAG_RACE_CHANGE_LANE_LEFT_ANALOG",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 1,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 900454037,
+    "button": "DPAD"
+  },
+  {
+    "configs": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "eventName": "JOY_EVENT_DRAG_RACE_CHANGE_LANE_RIGHT_ANALOG",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 2,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 900454037,
+    "button": "DPAD"
+  },
+  {
+    "configs": [
+      30,
+      31,
+      0,
+      33
+    ],
+    "eventName": "JOY_EVENT_SHIFTUP",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      25,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697975,
+    "button": "R2"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      32
+    ],
+    "eventName": "JOY_EVENT_SHIFTUP",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      27,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697975,
+    "button": "R2"
+  },
+  {
+    "configs": [
+      30,
+      31,
+      0,
+      33
+    ],
+    "eventName": "JOY_EVENT_SHIFTDOWN",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      24,
+      28
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697777,
+    "button": "L2"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      32
+    ],
+    "eventName": "JOY_EVENT_SHIFTDOWN",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      26,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697777,
+    "button": "L2"
+  },
+  {
+    "configs": [
+      30,
+      0,
+      32
+    ],
+    "eventName": "JOY_EVENT_CAMERA_LOOKBACK",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      29,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3651282181,
+    "button": "CIRCLE"
+  },
+  {
+    "configs": [
+      0,
+      31,
+      0,
+      33
+    ],
+    "eventName": "JOY_EVENT_CAMERA_LOOKBACK",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      26,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697776,
+    "button": "L1"
+  },
+  {
+    "configs": [
+      30,
+      31,
+      32,
+      33,
+	  34
+    ],
+    "eventName": "JOY_EVENT_CAMERA_POV_CHANGE",
+    "scanner": "DigitalDown",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      28,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 449399977,
+    "button": "TRIANGLE"
+  },
+  {
+    "configs": [
+      30
+    ],
+    "eventName": "JOY_EVENT_NITRO_BOOST",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      1
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      26,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697776,
+    "button": "L1"
+  },
+  {
+    "configs": [
+      0,
+      31,
+      0,
+      33
+    ],
+    "eventName": "JOY_EVENT_NITRO_BOOST",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      1
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      27,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697974,
+    "button": "R1"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      32
+    ],
+    "eventName": "JOY_EVENT_NITRO_BOOST",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      1
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      30,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3651282181,
+    "button": "CIRCLE"
+  },
+  {
+    "configs": [
+      30,
+      31,
+      32,
+      33
+    ],
+    "eventName": "JOY_EVENT_HONK_HORN",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      20,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3886429121,
+    "button": "DPAD UP"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      0,
+      0,
+      34
+    ],
+    "eventName": "JOY_EVENT_THROTTLE_ANALOG_ALTERNATE",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 1,
+    "graph": 3,
+    "unk16": 0,
+    "glyph": 2491425160,
+    "button": "ANALOGR"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      0,
+      0,
+      34
+    ],
+    "eventName": "JOY_EVENT_BRAKE_ANALOG_ALTERNATE",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 2,
+    "graph": 2,
+    "unk16": 0,
+    "glyph": 3037026395,
+    "button": "ANALOGR"
+  },
+  {
+    "configs": [
+      20,
+      34
+    ],
+    "eventName": "JOY_EVENT_EBRAKE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      3,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3885330813,
+    "button": "X"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      0,
+      0,
+      34
+    ],
+    "eventName": "JOY_EVENT_STEER_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 0,
+    "graph": 1,
+    "unk16": 0,
+    "glyph": 3996907801,
+    "button": "ANALOGL"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      0,
+      0,
+      34
+    ],
+    "eventName": "JOY_EVENT_STEER",
+    "scanner": "DigitalSteer",
+    "xor": [
+      1,
+      1
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      23,
+      21
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 900454037,
+    "button": "DPAD"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      0,
+      0,
+      34
+    ],
+    "eventName": "JOY_EVENT_DRAG_RACE_CHANGE_LANE_LEFT_ANALOG",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 1,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 900454037,
+    "button": "DPAD"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      0,
+      0,
+      34
+    ],
+    "eventName": "JOY_EVENT_DRAG_RACE_CHANGE_LANE_RIGHT_ANALOG",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 2,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 900454037,
+    "button": "DPAD"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      0,
+      0,
+      34
+    ],
+    "eventName": "JOY_EVENT_SHIFTUP",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      27,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697974,
+    "button": "R1"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      0,
+      0,
+      34
+    ],
+    "eventName": "JOY_EVENT_SHIFTDOWN",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      26,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697776,
+    "button": "L1"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      0,
+      0,
+      34
+    ],
+    "eventName": "JOY_EVENT_CAMERA_LOOKBACK",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      29,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3651282181,
+    "button": "CIRCLE"
+  },
+  {
+    "configs": [
+      20
+    ],
+    "eventName": "JOY_EVENT_CAMERA_POV_CHANGE",
+    "scanner": "DigitalDown",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      27,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697974,
+    "button": "R1"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      0,
+      0,
+      34
+    ],
+    "eventName": "JOY_EVENT_NITRO_BOOST",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      31,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 4287041668,
+    "button": "SQUARE"
+  },
+  {
+    "configs": [
+      40
+    ],
+    "eventName": "JOY_EVENT_THROTTLE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 0,
+    "graph": 3,
+    "unk16": 0,
+    "glyph": 0,
+    "button": "I"
+  },
+  {
+    "configs": [
+      40
+    ],
+    "eventName": "JOY_EVENT_BRAKE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 2,
+    "graph": 2,
+    "unk16": 0,
+    "glyph": 0,
+    "button": "II"
+  },
+  {
+    "configs": [
+      40
+    ],
+    "eventName": "JOY_EVENT_REVERSE",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      28,
+      0
+    ],
+    "invert": -1,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": "B"
+  },
+  {
+    "configs": [
+      40
+    ],
+    "eventName": "JOY_EVENT_STEER",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      0,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      40
+    ],
+    "eventName": "JOY_EVENT_STEER_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      0,
+      0
+    ],
+    "invert": 0,
+    "graph": 1,
+    "unk16": 0,
+    "glyph": 0,
+    "button": "WHEEL"
+  },
+  {
+    "configs": [
+      40
+    ],
+    "eventName": "JOY_EVENT_SHIFTUP",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      24,
+      29
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": "L"
+  },
+  {
+    "configs": [
+      40
+    ],
+    "eventName": "JOY_EVENT_SHIFTDOWN",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      27,
+      29
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": "R"
+  },
+  {
+    "configs": [
+      40
+    ],
+    "eventName": "JOY_EVENT_CAMERA_POV_CHANGE",
+    "scanner": "DigitalDown",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      29,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3651282181,
+    "button": "CIRCLE"
+  },
+  {
+    "configs": [
+      40
+    ],
+    "eventName": "JOY_EVENT_NITRO_BOOST",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      18,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697976,
+    "button": "R3"
+  },
+  {
+    "configs": [
+      40
+    ],
+    "eventName": "JOY_EVENT_REQUEST_HELICOPTER",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      1
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      24,
+      29
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": "CIRCLE + L2"
+  },
+  {
+    "configs": [
+      40
+    ],
+    "eventName": "JOY_EVENT_REQUEST_ROADBLOCK",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      1
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      26,
+      29
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 0,
+    "button": "CIRCLE + L1"
+  },
+  {
+    "configs": [
+      50,
+      51,
+      52,
+      53
+    ],
+    "eventName": "JOY_EVENT_THROTTLE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      2,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 0,
+    "graph": 3,
+    "unk16": 0,
+    "glyph": 0,
+    "button": "GAS"
+  },
+  {
+    "configs": [
+      50,
+      51,
+      52,
+      53
+    ],
+    "eventName": "JOY_EVENT_BRAKE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      3,
+      0
+    ],
+    "shift": [
+      0,
+      0
+    ],
+    "invert": 0,
+    "graph": 2,
+    "unk16": 0,
+    "glyph": 0,
+    "button": "BRAKE"
+  },
+  {
+    "configs": [
+      50,
+      51,
+      52,
+      53
+    ],
+    "eventName": "JOY_EVENT_STEER_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 0,
+    "graph": 1,
+    "unk16": 0,
+    "glyph": 0,
+    "button": "WHEEL"
+  },
+  {
+    "configs": [
+      50,
+      0,
+      0,
+      53
+    ],
+    "eventName": "JOY_EVENT_EBRAKE",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      30,
+      0
+    ],
+    "invert": -1,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3885330813,
+    "button": "CROSS"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      52
+    ],
+    "eventName": "JOY_EVENT_EBRAKE",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      26,
+      0
+    ],
+    "invert": -1,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697776,
+    "button": "L1"
+  },
+  {
+    "configs": [
+      0,
+      51
+    ],
+    "eventName": "JOY_EVENT_EBRAKE",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": -1,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697777,
+    "button": "L2"
+  },
+  {
+    "configs": [
+      50,
+      51
+    ],
+    "eventName": "JOY_EVENT_SHIFTUP",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      27,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697974,
+    "button": "R1"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      52,
+      53
+    ],
+    "eventName": "JOY_EVENT_SHIFTUP",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      25,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697975,
+    "button": "R2"
+  },
+  {
+    "configs": [
+      50,
+      51
+    ],
+    "eventName": "JOY_EVENT_SHIFTDOWN",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      26,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697776,
+    "button": "L1"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      52,
+      53
+    ],
+    "eventName": "JOY_EVENT_SHIFTDOWN",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697777,
+    "button": "L2"
+  },
+  {
+    "configs": [
+      50,
+      51,
+      52,
+      53
+    ],
+    "eventName": "JOY_EVENT_CAMERA_POV_CHANGE",
+    "scanner": "DigitalDown",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      31,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 449399977,
+    "button": "TRIANGLE"
+  },
+  {
+    "configs": [
+      50,
+      0,
+      0,
+      53
+    ],
+    "eventName": "JOY_EVENT_NITRO_BOOST",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      29,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3885330813,
+    "button": "CROSS"
+  },
+  {
+    "configs": [
+      0,
+      0,
+      52
+    ],
+    "eventName": "JOY_EVENT_NITRO_BOOST",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      27,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697974,
+    "button": "R1"
+  },
+  {
+    "configs": [
+      0,
+      51
+    ],
+    "eventName": "JOY_EVENT_NITRO_BOOST",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      25,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697974,
+    "button": "R1"
+  },
+  {
+    "configs": [
+      50,
+      51,
+      52,
+      53
+    ],
+    "eventName": "JOY_EVENT_CAMERA_LOOKBACK",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      28,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697777,
+    "button": "L2"
+  },
+  {
+    "configs": [
+      60,
+      61,
+      62,
+      63
+    ],
+    "eventName": "JOY_EVENT_THROTTLE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      2,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 0,
+    "graph": 3,
+    "unk16": 0,
+    "glyph": 0,
+    "button": "GAS"
+  },
+  {
+    "configs": [
+      60,
+      61,
+      62,
+      63
+    ],
+    "eventName": "JOY_EVENT_BRAKE_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      3,
+      0
+    ],
+    "shift": [
+      0,
+      0
+    ],
+    "invert": 0,
+    "graph": 2,
+    "unk16": 0,
+    "glyph": 0,
+    "button": "BRAKE"
+  },
+  {
+    "configs": [
+      60,
+      61,
+      62,
+      63
+    ],
+    "eventName": "JOY_EVENT_EBRAKE",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      30,
+      0
+    ],
+    "invert": -1,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697975,
+    "button": "R2"
+  },
+  {
+    "configs": [
+      60,
+      61,
+      62,
+      63
+    ],
+    "eventName": "JOY_EVENT_STEER_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 0,
+    "graph": 1,
+    "unk16": 0,
+    "glyph": 0,
+    "button": "WHEEL"
+  },
+  {
+    "configs": [
+      60,
+      61,
+      62,
+      63
+    ],
+    "eventName": "JOY_EVENT_SHIFTUP",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      27,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697974,
+    "button": "R1"
+  },
+  {
+    "configs": [
+      60,
+      61,
+      62,
+      63
+    ],
+    "eventName": "JOY_EVENT_SHIFTDOWN",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      26,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697776,
+    "button": "L1"
+  },
+  {
+    "configs": [
+      60,
+      61,
+      62,
+      63
+    ],
+    "eventName": "JOY_EVENT_CAMERA_POV_CHANGE",
+    "scanner": "DigitalDown",
+    "xor": [
+      0,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      29,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3651282181,
+    "button": "CIRCLE"
+  },
+  {
+    "configs": [
+      60,
+      61,
+      62,
+      63
+    ],
+    "eventName": "JOY_EVENT_NITRO_BOOST",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      28,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3651282181,
+    "button": "CIRCLE"
+  },
+  {
+    "configs": [
+      50,
+      51,
+      52,
+      53,
+      60,
+      61,
+      62,
+      63
+    ],
+    "eventName": "JOY_EVENT_DRAG_RACE_CHANGE_LANE_LEFT",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 1,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3886429112,
+    "button": ""
+  },
+  {
+    "configs": [
+      50,
+      51,
+      52,
+      53,
+      60,
+      61,
+      62,
+      63
+    ],
+    "eventName": "JOY_EVENT_DRAG_RACE_CHANGE_LANE_RIGHT",
+    "scanner": "DigitalAnalog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      8,
+      0
+    ],
+    "invert": 2,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 3886429118,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_STEER",
+    "scanner": "DigitalSteer",
+    "xor": [
+      1,
+      1
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      23,
+      21
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 900454037,
+    "button": "DPAD"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_PAUSE",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      19,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3904362145,
+    "button": "START"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_SKIP",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      30,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 3651282181,
+    "button": "CIRCLE"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_RESET_CAR",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 4272491059,
+    "button": "SELECT"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_FIRE_ROCKET",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      17,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697778,
+    "button": "L3"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_UNK_165",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      18,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697976,
+    "button": "R3"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_AIM_ROCKET_LR",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 0,
+    "graph": 1,
+    "unk16": 0,
+    "glyph": 3996907801,
+    "button": "ANALOGL"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_AIM_ROCKET_UD",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 0,
+    "graph": 1,
+    "unk16": 0,
+    "glyph": 1802212109,
+    "button": "ANALOGL"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_AIM_ZOOM",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      27,
+      28
+    ],
+    "invert": -1,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697974,
+    "button": "R1"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DISENGAGE_CLUTCH",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      17,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 0,
+    "glyph": 1939697778,
+    "button": "L3"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DISENGAGE_CLUTCH_ANALOG",
+    "scanner": "Analog",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      1,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 1,
+    "graph": 3,
+    "unk16": 0,
+    "glyph": 282090293,
+    "button": "ANALOGL"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DRAG_RACE_CHANGE_LANE_LEFT",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      23,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_DRAG_RACE_CHANGE_LANE_RIGHT",
+    "scanner": "DigitalUpOrDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      21,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": ""
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_UNK_173",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      26,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": "L1"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_UNK_174",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      24,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": "L2"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_UNK_175",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      27,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": "R1"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_UNK_176",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      25,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": "R2"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_UNK_177",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      23,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": "DPADL"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_UNK_178",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      21,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": "DPADR"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_UNK_179",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      31,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": "SQUARE"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_UNK_180",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      28,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": "TRIANGLE"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_UNK_181",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      17,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": "L3"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_UNK_182",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      18,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": "R3"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_UNK_183",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      20,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": "DPADU"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_UNK_184",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      22,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": "DPADD"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_UNK_185",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      19,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": "START"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_UNK_186",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      16,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": "SELECT"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_UNK_187",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      30,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": "CROSS"
+  },
+  {
+    "configs": [
+      -1
+    ],
+    "eventName": "JOY_EVENT_UNK_188",
+    "scanner": "DigitalDown",
+    "xor": [
+      1,
+      0
+    ],
+    "index": [
+      0,
+      0
+    ],
+    "shift": [
+      29,
+      0
+    ],
+    "invert": 0,
+    "graph": 0,
+    "unk16": 1,
+    "glyph": 0,
+    "button": "CIRCLE"
+  }
+]

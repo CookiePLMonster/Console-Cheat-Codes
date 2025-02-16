@@ -21,6 +21,7 @@ Currently includes:
   * Juiced (Acclaim Prototypes) (SLUS-20872)
   * NASCAR: Dirt to Daytona (SLUS-20441)
   * Need for Speed: Hot Pursuit 2 (SLUS-20362, SLES-50731)
+  * Need for Speed: Underground (SLUS-20811, SLES-51967, SLPM-65614)
   * Test Drive: Eve of Destruction (SLUS-20910)
   * Test Drive Unlimited (SLUS-21490)
   * Tokyo Xtreme Racer: Zero (SLUS-20189, SLES-50115, SLPS-25028)

@@ -135,6 +135,25 @@ def getParserForElf(elf):
     hash = binascii.crc32(elf) & 0xFFFFFFFF
 
     try:
+        UG1_PAL_NTSCU = ScannerParserUG1(
+                eventNamesPtr=0x4E1FF0, numEventNames=169,
+                scannerConfigsPtr=0x44C400, numScannerConfigsPtr=0x500128,
+            scanners=bidict({
+                0x2D4FD0 : 'TypeChanged',
+                0x2D5010 : 'DigitalAnyButton',
+                0x2D5098 : 'DigitalDown',
+                0x2D51B0 : 'DigitalDownPlus',
+                0x2D51D0 : 'DigitalUpOrDown',
+                0x2D52E0 : 'DigitalUpOrDownPlus',
+                0x2D5300 : 'DigitalDoublePress',
+                0x2D5478 : 'DigitalRepeat',
+                0x2D55D0 : 'DigitalSteer',
+                0x2D5678 : 'DigitalAnalog',
+                0x2D58C8 : 'DigitalAnalogDown',
+                0x2D5A40 : 'DigitalAnalogUpOrDown',
+                0x2D5B68 : 'Analog'
+        }))
+
         data = {
             # Hot Pursuit 2 NTSC-U
             0xb879bb85 : ScannerParserHP2(
@@ -171,23 +190,29 @@ def getParserForElf(elf):
             })),
 
             # Underground NTSC-U
-            0xb0fcc39b : ScannerParserUG1(
-                eventNamesPtr=0x4E1FF0, numEventNames=169,
-                scannerConfigsPtr=0x44C400, numScannerConfigsPtr=0x500128,
+            0xb0fcc39b : UG1_PAL_NTSCU,
+
+            # Underground PAL (same as NTSC-U)
+            0xc1faa5d5 : UG1_PAL_NTSCU,
+
+            # Underground NTSC-J (EA Best Hits)
+            0xad838821 : ScannerParserUG1(
+                eventNamesPtr=0x4EE500, numEventNames=169,
+                scannerConfigsPtr=0x453100, numScannerConfigsPtr=0x50D0A8,
             scanners=bidict({
-                0x2D4FD0 : 'TypeChanged',
-                0x2D5010 : 'DigitalAnyButton',
-                0x2D5098 : 'DigitalDown',
-                0x2D51B0 : 'DigitalDownPlus',
-                0x2D51D0 : 'DigitalUpOrDown',
-                0x2D52E0 : 'DigitalUpOrDownPlus',
-                0x2D5300 : 'DigitalDoublePress',
-                0x2D5478 : 'DigitalRepeat',
-                0x2D55D0 : 'DigitalSteer',
-                0x2D5678 : 'DigitalAnalog',
-                0x2D58C8 : 'DigitalAnalogDown',
-                0x2D5A40 : 'DigitalAnalogUpOrDown',
-                0x2D5B68 : 'Analog'
+                0x2DB618 : 'TypeChanged',
+                0x2DB658 : 'DigitalAnyButton',
+                0x2DB6E0 : 'DigitalDown',
+                0x2DB7F8 : 'DigitalDownPlus',
+                0x2DB818 : 'DigitalUpOrDown',
+                0x2DB928 : 'DigitalUpOrDownPlus',
+                0x2DB948 : 'DigitalDoublePress',
+                0x2DBAC0 : 'DigitalRepeat',
+                0x2DBC18 : 'DigitalSteer',
+                0x2DBCC0 : 'DigitalAnalog',
+                0x2DBF10 : 'DigitalAnalogDown',
+                0x2DC088 : 'DigitalAnalogUpOrDown',
+                0x2DC1B0 : 'Analog'
             })),
         }
         return data[hash]
