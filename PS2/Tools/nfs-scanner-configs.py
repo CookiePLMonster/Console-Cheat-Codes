@@ -88,6 +88,49 @@ class ScannerParserHP2(ShaderParserBase):
     def isWordRelevant(self, index):
         return index != 8 # We don't care about 'button'
 
+class ScannerParserUG1(ShaderParserBase):
+    configFormat = '<8bII2B2BbBHII'
+
+    def unpack(self, elf, eventNames, entry):
+        newEntry = {}
+        newEntry['configs'] = trimZeroes(entry[:8])
+        newEntry['eventName'] = eventNames.get(entry[8], f'JOY_EVENT_UNK_{entry[8]}')
+        if entry[9] != 0:
+            try:
+                newEntry['scanner'] = self.scanners[entry[9]]
+            except KeyError as e:
+                e.add_note(f'Unknown scanner function! Address: {entry[9]:08X}')
+                raise
+        newEntry['xor'] = entry[10:12]
+        newEntry['index'] = [(x >> 5) for x in entry[12:14]]
+        newEntry['shift'] = [(x & 0x1F) for x in entry[12:14]]
+        newEntry['invert'] = entry[14]
+        newEntry['graph'] = entry[15]
+        newEntry['unk16'] = entry[16]
+        newEntry['glyph'] = entry[17]
+        if entry[18] != 0:
+            newEntry['button'] = readCString(elf, vaddrToOffset(entry[18]))
+        else:
+            newEntry['button'] = ''
+
+        return newEntry
+
+    def pack(self, getKeyEventIdFn, config):
+        return struct.pack(self.configFormat,
+            *padList(config['configs'], 8),
+                getKeyEventIdFn(config['eventName']),
+                self.scanners.inverse.get(config.get('scanner'), 0),
+                *config['xor'],
+                config['index'][0] << 5 | (config['shift'][0] & 0x1F),
+                config['index'][1] << 5 | (config['shift'][1] & 0x1F),
+                config['invert'], config['graph'], config['unk16'],
+                config['glyph'],
+                0
+            )
+
+    def isWordRelevant(self, index):
+        return index != 7 # We don't care about 'button'
+
 def getParserForElf(elf):
     hash = binascii.crc32(elf) & 0xFFFFFFFF
 
@@ -125,6 +168,26 @@ def getParserForElf(elf):
                 0x1547A0 : 'DigitalSteer',
                 0x154848 : 'DigitalAnalog',
                 0x154A00 : 'Analog',
+            })),
+
+            # Underground NTSC-U
+            0xb0fcc39b : ScannerParserUG1(
+                eventNamesPtr=0x4E1FF0, numEventNames=169,
+                scannerConfigsPtr=0x44C400, numScannerConfigsPtr=0x500128,
+            scanners=bidict({
+                0x2D4FD0 : 'TypeChanged',
+                0x2D5010 : 'DigitalAnyButton',
+                0x2D5098 : 'DigitalDown',
+                0x2D51B0 : 'DigitalDownPlus',
+                0x2D51D0 : 'DigitalUpOrDown',
+                0x2D52E0 : 'DigitalUpOrDownPlus',
+                0x2D5300 : 'DigitalDoublePress',
+                0x2D5478 : 'DigitalRepeat',
+                0x2D55D0 : 'DigitalSteer',
+                0x2D5678 : 'DigitalAnalog',
+                0x2D58C8 : 'DigitalAnalogDown',
+                0x2D5A40 : 'DigitalAnalogUpOrDown',
+                0x2D5B68 : 'Analog'
             })),
         }
         return data[hash]
