@@ -3,53 +3,8 @@ import json
 import mmap
 import re
 import struct
-import sys
+from abc import ABC, abstractmethod
 from bidict import bidict
-from collections import namedtuple
-
-SCANNER_CONFIG_FORMAT = '<8bII2B2BbBH2II'
-
-def getVersionData(elf):
-    hash = binascii.crc32(elf) & 0xFFFFFFFF
-    VersionData = namedtuple('VersionData', ['eventNames', 'numEventNames',
-                             'scannerConfigs', 'numScannerConfigsPtr', 'scanners'])
-
-    data = {
-        # NTSC-U
-        0xb879bb85 : VersionData(
-            eventNames=0x2FA2D0, numEventNames=130,
-            scannerConfigs=0x2DC500, numScannerConfigsPtr=0x32FBE0,
-        scanners=bidict({
-            0x1545E8 : 'TypeChanged',
-            0x1546B0 : 'DigitalDown',
-            0x154A90 : 'DigitalRepeat',
-            0x1547E8 : 'DigitalUpOrDown',
-            0x154C90 : 'DigitalAnalog',
-            0x154628 : 'DigitalAnyButton',
-            0x154E48 : 'Analog',
-            0x154918 : 'DigitalDoublePress',
-            0x154BE8 : 'DigitalSteer',
-        })),
-
-        # NTSC-U A1.56 prototype
-        0x6297bb64 : VersionData(
-            eventNames=0x2F1B48, numEventNames=130,
-            scannerConfigs=0x2D3AC0, numScannerConfigsPtr=0x326C40,
-        scanners=bidict({
-            0x1541A0 : 'TypeChanged',
-            0x1541E0 : 'DigitalAnyButton',
-            0x154268 : 'DigitalDown',
-            0x154380 : 'DigitalDownPlus',
-            0x1543A0 : 'DigitalUpOrDown',
-            0x1544B0 : 'DigitalUpOrDownPlus',
-            0x1544D0 : 'DigitalDoublePress',
-            0x154648 : 'DigitalRepeat',
-            0x1547A0 : 'DigitalSteer',
-            0x154848 : 'DigitalAnalog',
-            0x154A00 : 'Analog',
-        })),
-    }
-    return data[hash]
 
 def readU32(buf, addr):
     return struct.unpack_from('<I', buf, addr)[0]
@@ -65,20 +20,128 @@ def padList(l, length):
     l.extend(0 for _ in range(extra_length))
     return l
 
+def trimZeroes(arr):
+    while len(arr) > 0 and arr[-1] == 0:
+        arr = arr[:-1]
+    return arr
+
 def openFileMapping(path):
     with open(path) as f:
         return mmap.mmap(f.fileno(), 0, None, mmap.ACCESS_READ)
 
+# Parsers
+class ShaderParserBase(ABC):
+    def __init__(self, eventNamesPtr, numEventNames, scannerConfigsPtr, numScannerConfigsPtr, scanners):
+        self.eventNamesPtr = eventNamesPtr
+        self.numEventNames = numEventNames
+        self.scannerConfigsPtr = scannerConfigsPtr
+        self.numScannerConfigsPtr = numScannerConfigsPtr
+        self.scanners = scanners
+
+    @abstractmethod
+    def unpack(self, elf, eventNames, entry):
+        pass
+
+    @abstractmethod
+    def pack(self, getKeyEventIdFn, config):
+        pass
+
+    def isWordRelevant(self, index):
+        return True
+
+class ScannerParserHP2(ShaderParserBase):
+    configFormat = '<8bII2B2BbBH2II'
+
+    def unpack(self, elf, eventNames, entry):
+        newEntry = {}
+        newEntry['configs'] = trimZeroes(entry[:8])
+        newEntry['eventName'] = eventNames.get(entry[8], f'JOY_EVENT_UNK_{entry[8]}')
+        if entry[9] != 0:
+            newEntry['scanner'] = self.scanners[entry[9]]
+        newEntry['xor'] = entry[10:12]
+        newEntry['index'] = [(x >> 5) for x in entry[12:14]]
+        newEntry['shift'] = [(x & 0x1F) for x in entry[12:14]]
+        newEntry['invert'] = entry[14]
+        newEntry['graph'] = entry[15]
+        newEntry['unk16'] = entry[16]
+        newEntry['glyph'] = trimZeroes(entry[17:19])
+        if entry[19] != 0:
+            newEntry['button'] = readCString(elf, vaddrToOffset(entry[19]))
+        else:
+            newEntry['button'] = ''
+
+        return newEntry
+
+    def pack(self, getKeyEventIdFn, config):
+        return struct.pack(self.configFormat,
+            *padList(config['configs'], 8),
+                getKeyEventIdFn(config['eventName']),
+                self.scanners.inverse.get(config.get('scanner'), 0),
+                *config['xor'],
+                config['index'][0] << 5 | (config['shift'][0] & 0x1F),
+                config['index'][1] << 5 | (config['shift'][1] & 0x1F),
+                config['invert'], config['graph'], config['unk16'],
+                *padList(config['glyph'], 2),
+                0
+            )
+
+    def isWordRelevant(self, index):
+        return index != 8 # We don't care about 'button'
+
+def getParserForElf(elf):
+    hash = binascii.crc32(elf) & 0xFFFFFFFF
+
+    try:
+        data = {
+            # Hot Pursuit 2 NTSC-U
+            0xb879bb85 : ScannerParserHP2(
+                eventNamesPtr=0x2FA2D0, numEventNames=130,
+                scannerConfigsPtr=0x2DC500, numScannerConfigsPtr=0x32FBE0,
+            scanners=bidict({
+                0x1545E8 : 'TypeChanged',
+                0x1546B0 : 'DigitalDown',
+                0x154A90 : 'DigitalRepeat',
+                0x1547E8 : 'DigitalUpOrDown',
+                0x154C90 : 'DigitalAnalog',
+                0x154628 : 'DigitalAnyButton',
+                0x154E48 : 'Analog',
+                0x154918 : 'DigitalDoublePress',
+                0x154BE8 : 'DigitalSteer',
+            })),
+
+            # Hot Pursuit 2 NTSC-U A1.56 prototype
+            0x6297bb64 : ScannerParserHP2(
+                eventNamesPtr=0x2F1B48, numEventNames=130,
+                scannerConfigsPtr=0x2D3AC0, numScannerConfigsPtr=0x326C40,
+            scanners=bidict({
+                0x1541A0 : 'TypeChanged',
+                0x1541E0 : 'DigitalAnyButton',
+                0x154268 : 'DigitalDown',
+                0x154380 : 'DigitalDownPlus',
+                0x1543A0 : 'DigitalUpOrDown',
+                0x1544B0 : 'DigitalUpOrDownPlus',
+                0x1544D0 : 'DigitalDoublePress',
+                0x154648 : 'DigitalRepeat',
+                0x1547A0 : 'DigitalSteer',
+                0x154848 : 'DigitalAnalog',
+                0x154A00 : 'Analog',
+            })),
+        }
+        return data[hash]
+    except KeyError as e:
+        e.add_note(f'Unknown game specified! ELF CRC32: {hash:08X}')
+        raise
+
 def dumpEventNames(elfPath, output):
     events = []
     with openFileMapping(elfPath) as elf:
-        VERSION_DATA = getVersionData(elf)
+        parser = getParserForElf(elf)
 
         FORMAT = '<II'
-        ENTRY_SIZE = struct.calcsize(FORMAT)
+        entrySize = struct.calcsize(FORMAT)
 
-        startOffset = vaddrToOffset(VERSION_DATA.eventNames)
-        for entry in struct.iter_unpack(FORMAT, elf[startOffset:startOffset+(ENTRY_SIZE*VERSION_DATA.numEventNames)]):
+        startOffset = vaddrToOffset(parser.eventNamesPtr)
+        for entry in struct.iter_unpack(FORMAT, elf[startOffset:startOffset+(entrySize*parser.numEventNames)]):
             events.append({'id': entry[0], 'name': readCString(elf, vaddrToOffset(entry[1]))})
 
     with open(output, 'w') as f:
@@ -95,37 +158,15 @@ def dumpScannerConfigs(elfPath, eventNamesPath, output):
         return result
 
     with openFileMapping(elfPath) as elf:
-        VERSION_DATA = getVersionData(elf)
+        parser = getParserForElf(elf)
 
-        ENTRY_SIZE = struct.calcsize(SCANNER_CONFIG_FORMAT)
-        EVENT_NAMES = getEventNames()
+        entrySize = struct.calcsize(parser.configFormat)
+        eventNames = getEventNames()
 
-        startOffset = vaddrToOffset(VERSION_DATA.scannerConfigs)
-        numScannerConfigs = readU32(elf, vaddrToOffset(VERSION_DATA.numScannerConfigsPtr))
-        for entry in struct.iter_unpack(SCANNER_CONFIG_FORMAT, elf[startOffset:startOffset+(ENTRY_SIZE*numScannerConfigs)]):
-            def trimZeroes(arr):
-                while len(arr) > 0 and arr[-1] == 0:
-                    arr = arr[:-1]
-                return arr
-
-            newEntry = {}
-            newEntry['configs'] = trimZeroes(entry[:8])
-            newEntry['eventName'] = EVENT_NAMES.get(entry[8], f'JOY_EVENT_UNK_{entry[8]}')
-            if entry[9] != 0:
-                newEntry['scanner'] = VERSION_DATA.scanners[entry[9]]
-            newEntry['xor'] = entry[10:12]
-            newEntry['index'] = [(x >> 5) for x in entry[12:14]]
-            newEntry['shift'] = [(x & 0x1F) for x in entry[12:14]]
-            newEntry['invert'] = entry[14]
-            newEntry['graph'] = entry[15]
-            newEntry['unk16'] = entry[16]
-            newEntry['glyph'] = trimZeroes(entry[17:19])
-            if entry[19] != 0:
-                newEntry['button'] = readCString(elf, vaddrToOffset(entry[19]))
-            else:
-                newEntry['button'] = ''
-
-            scannerConfigs.append(newEntry)
+        startOffset = vaddrToOffset(parser.scannerConfigsPtr)
+        numScannerConfigs = readU32(elf, vaddrToOffset(parser.numScannerConfigsPtr))
+        for entry in struct.iter_unpack(parser.configFormat, elf[startOffset:startOffset+(entrySize*numScannerConfigs)]):
+            scannerConfigs.append(parser.unpack(elf, eventNames, entry))
 
     with open(output, 'w') as f:
         json.dump(scannerConfigs, f, indent=2)
@@ -146,14 +187,14 @@ def generatePnachFile(elfPath, eventNamesPath, scannerConfigsPath, output):
         return result
 
     with openFileMapping(elfPath) as elf:
-        VERSION_DATA = getVersionData(elf)
-        ENTRY_SIZE = struct.calcsize(SCANNER_CONFIG_FORMAT)
+        parser = getParserForElf(elf)
+        entrySize = struct.calcsize(parser.configFormat)
         NEW_CONFIGS = getScannerConfigs()
 
-        startOffset = VERSION_DATA.scannerConfigs
-        origNumScannerConfigs = readU32(elf, vaddrToOffset(VERSION_DATA.numScannerConfigsPtr))
+        startOffset = parser.scannerConfigsPtr
+        origNumScannerConfigs = readU32(elf, vaddrToOffset(parser.numScannerConfigsPtr))
         if len(NEW_CONFIGS) > origNumScannerConfigs:
-            sys.exit('Out of space for scanner configs!')
+            raise ValueError(f'Out of space for scanner configs! Specified {len(NEW_CONFIGS)} configs, max {origNumScannerConfigs}')
 
         with open(output, 'w') as pnach:
             EVENT_IDS = getEventIds()
@@ -163,32 +204,20 @@ def generatePnachFile(elfPath, eventNamesPath, scannerConfigsPath, output):
                     return int(match.group(1))
                 return EVENT_IDS[key]
 
-
             LINE_TEMPLATE = 'patch=0,EE,{0:X},extended,{1:X}\n'
             if origNumScannerConfigs != len(NEW_CONFIGS):
-                pnach.write(LINE_TEMPLATE.format(VERSION_DATA.numScannerConfigsPtr, len(NEW_CONFIGS)))
+                pnach.write(LINE_TEMPLATE.format(parser.numScannerConfigsPtr, len(NEW_CONFIGS)))
             for config in NEW_CONFIGS:
-                buf = struct.pack(SCANNER_CONFIG_FORMAT,
-                                *padList(config['configs'], 8),
-                                getKeyEventId(config['eventName']),
-                                VERSION_DATA.scanners.inverse.get(config.get('scanner'), 0),
-                                *config['xor'],
-                                config['index'][0] << 5 | (config['shift'][0] & 0x1F),
-                                config['index'][1] << 5 | (config['shift'][1] & 0x1F),
-                                config['invert'], config['graph'], config['unk16'],
-                                *padList(config['glyph'], 2),
-                                0 # We don't care about 'button'
-                )
 
-                # Unpack again to integers so we can generate a pnach
-                patchedMem = struct.unpack('<9I', buf)
+                # Pack and unpack again to integers so we can generate a pnach
+                patchedMem = struct.unpack(f'<{entrySize // 4}I', parser.pack(getKeyEventId, config))
                 offset = startOffset
-                for i in range(8):
-                    if readU32(elf, vaddrToOffset(offset)) != patchedMem[i]:
-                        pnach.write(LINE_TEMPLATE.format(offset | 0x20000000, patchedMem[i]))
+                for index, value in enumerate(patchedMem):
+                    if parser.isWordRelevant(index) and readU32(elf, vaddrToOffset(offset)) != value:
+                        pnach.write(LINE_TEMPLATE.format(offset | 0x20000000, value))
                     offset += 4
 
-                startOffset += ENTRY_SIZE
+                startOffset += entrySize
 
 
 if __name__ == "__main__":
