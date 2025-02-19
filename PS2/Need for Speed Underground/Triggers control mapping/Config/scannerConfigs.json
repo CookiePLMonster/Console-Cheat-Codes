@@ -3805,14 +3805,14 @@
       0
     ],
     "shift": [
-      28,
+      31,
       0
     ],
     "invert": 0,
     "graph": 0,
     "unk16": 0,
-    "glyph": 449399977,
-    "button": "TRIANGLE"
+    "glyph": 4287041668,
+    "button": "SQUARE"
   },
   {
     "configs": [
@@ -3829,14 +3829,14 @@
       0
     ],
     "shift": [
-      31,
+      28,
       0
     ],
     "invert": 0,
     "graph": 0,
     "unk16": 0,
-    "glyph": 4287041668,
-    "button": "SQUARE"
+    "glyph": 449399977,
+    "button": "TRIANGLE"
   },
   {
     "configs": [
