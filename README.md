@@ -22,6 +22,7 @@ Currently includes:
   * NASCAR: Dirt to Daytona (SLUS-20441)
   * Need for Speed: Carbon (SLUS-21493, SLUS-21494, SLES-54321, SLES-54492)
   * Need for Speed: Hot Pursuit 2 (SLUS-20362, SLES-50731)
+  * Need for Speed: Pro Street (SLES-55002)
   * Need for Speed: Underground (SLUS-20811, SLES-51967, SLPM-65471, SLPM-65614, SLKA-25136)
   * Test Drive: Eve of Destruction (SLUS-20910)
   * Test Drive Unlimited (SLUS-21490)
@@ -33,10 +34,10 @@ Currently includes:
 
 
 # Credits
-* Aero_  - Improved Adjusted Trigger Sensitivity cheats
+* Aero_  - Improved Adjusted Trigger Sensitivity cheats, ProStreet Native Widescreen patch
 * Arapapa - 007: Agent Under Fire, widescreen fix for on-foot sections
 * asasega - Gran Turismo/Gran Turismo 2, 60 FPS codes; Tokyo Xtreme Racer: Zero, deinterlace patch
 * HugoPocked - Gran Turismo 2, widescreen codes
 * JakeMR2 - Tokyo Xtreme Racer: Zero, porting cheats to NTSC-J
 * VIRGIN KLM - Tokyo Xtreme Racer: Zero, widescreen fix
-* xan1242 - Gran Turismo 3 JP cheats
+* xan1242 - Gran Turismo 3 JP cheats, ProStreet Native Widescreen patch
