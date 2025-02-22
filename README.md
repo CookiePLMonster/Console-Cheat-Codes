@@ -20,7 +20,7 @@ Currently includes:
   * Gran Turismo 4 Online (SCUS-97436)
   * Juiced (Acclaim Prototypes) (SLUS-20872)
   * NASCAR: Dirt to Daytona (SLUS-20441)
-  * Need for Speed: Carbon (SLUS-21493, SLUS-21494)
+  * Need for Speed: Carbon (SLUS-21493, SLUS-21494, SLES-54321, SLES-54492)
   * Need for Speed: Hot Pursuit 2 (SLUS-20362, SLES-50731)
   * Need for Speed: Underground (SLUS-20811, SLES-51967, SLPM-65471, SLPM-65614, SLKA-25136)
   * Test Drive: Eve of Destruction (SLUS-20910)
