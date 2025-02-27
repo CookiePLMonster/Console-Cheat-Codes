@@ -22,7 +22,7 @@ Currently includes:
   * NASCAR: Dirt to Daytona (SLUS-20441)
   * Need for Speed: Carbon (SLUS-21493, SLUS-21494, SLES-54321, SLES-54492)
   * Need for Speed: Hot Pursuit 2 (SLUS-20362, SLES-50731)
-  * Need for Speed: Pro Street (SLES-55002)
+  * Need for Speed: Pro Street (SLES-55002, SLES-55006)
   * Need for Speed: Underground (SLUS-20811, SLES-51967, SLPM-65471, SLPM-65614, SLKA-25136)
   * Test Drive: Eve of Destruction (SLUS-20910)
   * Test Drive Unlimited (SLUS-21490)
