@@ -18,6 +18,7 @@ Currently includes:
   * Gran Turismo 4 First Preview (PCPX-96649)
   * Gran Turismo 4 (SCUS-97328, SCES-51719)
   * Gran Turismo 4 Online (SCUS-97436)
+  * Grand Theft Auto San Andreas (SLUS-20946, SLES-52541, SLES-52927, SLPM-55292, SLPM-65984)
   * Juiced (Acclaim Prototypes) (SLUS-20872)
   * NASCAR: Dirt to Daytona (SLUS-20441)
   * Need for Speed: Carbon (SLUS-21493, SLUS-21494, SLES-54321, SLES-54492)
@@ -39,5 +40,6 @@ Currently includes:
 * asasega - Gran Turismo/Gran Turismo 2, 60 FPS codes; Tokyo Xtreme Racer: Zero, deinterlace patch
 * HugoPocked - Gran Turismo 2, widescreen codes
 * JakeMR2 - Tokyo Xtreme Racer: Zero, porting cheats to NTSC-J
+* PeterDelta - the original Remove Ghosting Effects cheat for San Andreas
 * VIRGIN KLM - Tokyo Xtreme Racer: Zero, widescreen fix
 * xan1242 - Gran Turismo 3 JP cheats, ProStreet Native Widescreen patch

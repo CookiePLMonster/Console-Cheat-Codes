@@ -1,0 +1,20 @@
+gametitle=Grand Theft Auto - San Andreas (PAL-G) (SLES-52927) (v2.01)
+
+[Remove Ghosting Effects]
+author=Silent, PeterDelta
+description=Removes the ghosting effect from radiosity and color filter post effects, preserving the slight bloom effect. Also disables the seam remover post effect.
+
+patch=0,EE,00668CDC,extended,00 // CPostEffects::m_bSeamRemover
+patch=0,EE,20668D64,extended,00000000 // CPostEffects::m_RadiosityFilterPasses
+
+// These values are read from stream.ini from the init overlay, so we have to patch them every frame
+patch=1,EE,20668DA8,extended,00000000 // CPostEffects::m_colourLeftUOffset
+patch=1,EE,20668DAC,extended,00000000 // CPostEffects::m_colourRightUOffset
+patch=1,EE,20668DB0,extended,00000000 // CPostEffects::m_colourTopVOffset
+patch=1,EE,20668DB4,extended,00000000 // CPostEffects::m_colourBottomVOffset
+
+[Remove Color Filter]
+author=Silent
+description=Removes the color filter, making the game look more like the PC version, without the yellow tint.
+
+patch=0,EE,20515CE8,extended,00000000 // NOP CPostEffects::ColourFilter
