@@ -12,6 +12,7 @@ Currently includes:
 
 * PS2 PNACH codes for:
   * 007: Agent Under Fire (SLUS-20265, SLES-50539, SLPM-67505)
+  * Gran Turismo 2000 (PAPX-90203)
   * Gran Turismo 3 (SCUS-97102, SCES-50294, SCPS-15009)
   * Gran Turismo Concept 2002 Tokyo-Geneva (SCES-50858, SCPS-55903)
   * Gran Turismo 4 Prologue (SCES-52438, SCPS-15055)
@@ -39,7 +40,9 @@ Currently includes:
 * Arapapa - 007: Agent Under Fire, widescreen fix for on-foot sections
 * asasega - Gran Turismo/Gran Turismo 2, 60 FPS codes; Tokyo Xtreme Racer: Zero, deinterlace patch
 * HugoPocked - Gran Turismo 2, widescreen codes
+* krat0s - original "No time limit" cheat for Gran Turismo 2000
 * JakeMR2 - Tokyo Xtreme Racer: Zero, porting cheats to NTSC-J
 * PeterDelta - the original Remove Ghosting Effects cheat for San Andreas
 * VIRGIN KLM - Tokyo Xtreme Racer: Zero, widescreen fix
 * xan1242 - Gran Turismo 3 JP cheats, ProStreet Native Widescreen patch
+- Xenn - original Gran Turismo 2000 research on the AI cars

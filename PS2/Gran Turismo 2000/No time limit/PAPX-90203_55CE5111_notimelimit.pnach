@@ -1,0 +1,15 @@
+gametitle=Gran Turismo 2000 [PAPX-90203] (J)
+
+[No time limit]
+description=Disables the demo time limit.
+author=Silent, krat0s
+
+// Set the UI timer to 0 seconds, which disables it.
+patch=0,EE,20216130,extended,00000000 // nop
+
+// Disable "Time limit xxx" drawing.
+patch=0,EE,20219844,extended,00000000 // nop
+
+// Disable a 121s replay check that's active during the race
+patch=0,EE,20216518,extended,03E00008 // jr ra
+patch=0,EE,2021651C,extended,0000102D // daddu v0,zero,zero
