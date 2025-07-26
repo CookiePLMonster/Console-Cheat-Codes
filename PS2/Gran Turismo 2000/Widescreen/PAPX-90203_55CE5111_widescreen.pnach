@@ -1,0 +1,106 @@
+gametitle=Gran Turismo 2000 [PAPX-90203] (J)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+description=16:9 widescreen patch
+author=Silent
+
+// Change Vert- to Hor+
+patch=0,EE,2024589C,extended,3C033F40 // lui v1,0x3F40
+patch=0,EE,202458AC,extended,44836000 // mtc1 v1,f12
+
+// Fix the race HUD
+patch=0,EE,10219780,extended,0078 // Tachometer width
+patch=0,EE,10219788,extended,01E0 // Tachometer posX
+patch=0,EE,10219168,extended,005D // Speed text posX
+patch=0,EE,10219210,extended,0048 // km/h posX
+patch=0,EE,10219340,extended,005B // gear posX
+patch=0,EE,10219670,extended,01F4 // Position indicator posX
+patch=0,EE,10219678,extended,003C // Position indicator width
+
+// Slightly enlarge the gear background to account for stretched fonts
+patch=0,EE,2027DCB0,extended,41F00000 // 30.0f
+patch=0,EE,2027DCBC,extended,42600000 // 56.0f
+patch=0,EE,2027DCC8,extended,41F00000 // 30.0f
+patch=0,EE,2027DCD4,extended,42600000 // 56.0f
+
+// As we can't unstretch fonts easily, leave the pause menu background stretched
+
+// Fix menus
+//patch=0,EE,202A28C0,extended,42D64925 // Background movie width (fit)
+patch=0,EE,202A28C4,extended,42855555 // Background movie height (fill)
+patch=0,EE,202A26A8,extended,C2875B6E // Side ruler posX
+patch=0,EE,202A26B0,extended,40E00000 // Side ruler width
+patch=0,EE,202A1F90,extended,42430000 // 2000 logo width
+patch=0,EE,202A20B0,extended,40F00000 // Polyphony logo width
+patch=0,EE,202A2980,extended,425E0000 // GT logo width
+patch=0,EE,202A2A40,extended,41900000 // 'Game Start' text width
+patch=0,EE,202A2C18,extended,C1340000 // 'Game Start' peak light start pos
+patch=0,EE,202A2C48,extended,41340000 // 'Game Start' peak light end pos
+patch=0,EE,202A2F78,extended,C2620000 // Color sample posX
+patch=0,EE,202A2F80,extended,40900000 // Color sample width
+patch=0,EE,202A3008,extended,C2340000 // Color name posX
+patch=0,EE,202A3010,extended,41F00000 // Color name width
+patch=0,EE,202A31B8,extended,C2700000 // Color name peak light start pos
+patch=0,EE,202A31E8,extended,C1F00000 // Color name peak light end pos
+patch=0,EE,10207140,extended,3F90 // Color name peak light flash offset (high word)
+patch=0,EE,202A31E8,extended,C273C000 // Color name peak light posX
+patch=0,EE,202A31F0,extended,3FF00000 // Color name peak light width
+patch=0,EE,202A34E8,extended,42280000 // Car badge posX
+patch=0,EE,202A3638,extended,42280000 // Car badge posX
+patch=0,EE,202A34F0,extended,42160000 // Car badge width
+patch=0,EE,202A3640,extended,42160000 // Car badge width
+patch=0,EE,202A3758,extended,42390000 // '4WD' text posX
+patch=0,EE,202A3760,extended,41100000 // '4WD' text width
+patch=0,EE,202A3878,extended,42630000 // '280PS' text posX
+patch=0,EE,202A3880,extended,41280000 // '280PS' text width
+patch=0,EE,202A3D28,extended,426D0000 // Car specs #1 posX
+patch=0,EE,202A3DB8,extended,426D0000 // Car specs #2 posX
+patch=0,EE,202A3E48,extended,426D0000 // Car specs #3 posX
+patch=0,EE,202A3ED8,extended,42658000 // Car specs #5 posX
+patch=0,EE,202A3F68,extended,42658000 // Car specs #4 posX
+patch=0,EE,202A3D30,extended,40F00000 // Car specs #1 width
+patch=0,EE,202A3DC0,extended,40F00000 // Car specs #2 width
+patch=0,EE,202A3E50,extended,40F00000 // Car specs #3 width
+patch=0,EE,202A3EE0,extended,41340000 // Car specs #5 width
+patch=0,EE,202A3F70,extended,41340000 // Car specs #4 width
+patch=0,EE,202A3FF8,extended,C1B00000 // Racing handling posX
+patch=0,EE,202A4000,extended,41D80000 // Racing handling width
+patch=0,EE,202A4088,extended,41B00000 // Drift handling posX
+patch=0,EE,202A4090,extended,41D80000 // Drift handling width
+patch=0,EE,202A43B8,extended,C1B00000 // Automatic transmission posX
+patch=0,EE,202A43C0,extended,41D80000 // Automatic transmission width
+patch=0,EE,202A4448,extended,41B00000 // Manual transmission posX
+patch=0,EE,202A4450,extended,41D80000 // Manual transmission width
+patch=0,EE,202A4568,extended,41F00000 // Vibration enabled posX
+patch=0,EE,202A4570,extended,41580000 // Vibration enabled width
+patch=0,EE,202A45F8,extended,C1F00000 // Vibration disabled posX
+patch=0,EE,202A4600,extended,41580000 // Vibration disabled width
+patch=0,EE,202A4690,extended,42070000 // Vibration text width
+
+// Fix opening images
+patch=0,EE,20200908,extended,240C0003 // li t4,0x3
+patch=0,EE,2020090C,extended,240D0004 // li t5,0x4
+patch=0,EE,20200910,extended,240E0140 // li t6,0x140
+patch=0,EE,20200914,extended,008E7822 // sub t7,a0,t6
+patch=0,EE,20200918,extended,01EC7818 // mult t7,t7,t4
+patch=0,EE,2020091C,extended,01ED001A // div t7,t5
+patch=0,EE,20200920,extended,00007812 // mflo t7
+patch=0,EE,20200924,extended,01CF2020 // add a0,t6,t7
+patch=0,EE,20200928,extended,00CE7822 // sub t7,a2,t6
+patch=0,EE,2020092C,extended,01EC7818 // mult t7,t7,t4k
+patch=0,EE,20200930,extended,01ED001A // div t7,t5
+patch=0,EE,20200934,extended,00007812 // mflo t7
+patch=0,EE,20200938,extended,08090E82 // j sub_243A08
+patch=0,EE,2020093C,extended,01CF3020 // add a2,t6,t7
+
+patch=0,EE,20200778,extended,0C080242 // jal sub_200908
+
+// Set the opening movies to fill the screen (they're 16:9 letterboxed anyway)
+patch=0,EE,102368D4,extended,0140
+
+patch=0,EE,20200940,extended,00EC1821 // addu v1,a3,t4
+patch=0,EE,20200944,extended,0808E506 // j 0x00239418
+patch=0,EE,20200948,extended,2463FFF2 // addiu v1,v1,-0xE
+
+patch=0,EE,20239410,extended,08080250 // j z_un_00200940

@@ -1,0 +1,44 @@
+gametitle=Gran Turismo 2000 [PAPX-90203] (J)
+
+[Throttle/brake on right stick]
+description=Maps the right stick up/down as an additional throttle/brake control, like in most other GT games.
+author=Silent
+
+patch=0,EE,20215F5C,extended,27BDFFF0 // addiu sp,sp,-0x10
+patch=0,EE,20215F60,extended,FFBF0000 // sd ra,0x0(sp)
+patch=0,EE,20215F64,extended,0C0857E8 // jal TryGetAnalogInput
+patch=0,EE,20215F68,extended,92230021 // lbu v1,0x21(s1)
+patch=0,EE,20215F6C,extended,A6020004 // sh v0,0x4(s0)
+patch=0,EE,20215F70,extended,DFBF0000 // ld ra,0x0(sp)
+patch=0,EE,20215F74,extended,03E00008 // jr ra
+patch=0,EE,20215F78,extended,27BD0010 // addiu sp,sp,0x10
+
+patch=0,EE,20215F7C,extended,27BDFFF0 // addiu sp,sp,-0x10
+patch=0,EE,20215F80,extended,FFBF0000 // sd ra,0x0(sp)
+patch=0,EE,20215F84,extended,92230021 // lbu v1,0x21(s1)
+patch=0,EE,20215F88,extended,0C0857E8 // jal TryGetAnalogInput
+patch=0,EE,20215F8C,extended,386300FF // xori v1,v1,0x00FF
+patch=0,EE,20215F90,extended,A6020002 // sh v0,0x2(s0)
+patch=0,EE,20215F94,extended,DFBF0000 // ld ra,0x0(sp)
+patch=0,EE,20215F98,extended,03E00008 // jr ra
+patch=0,EE,20215F9C,extended,27BD0010 // addiu sp,sp,0x10
+
+// TryGetAnalogInput
+patch=0,EE,20215FA0,extended,14400009 // bne v0,zero,0x00215FC8
+patch=0,EE,20215FA4,extended,3C04002B // lui a0,0x002B
+patch=0,EE,20215FA8,extended,2484B858 // addiu a0,a0,-0x47A8
+patch=0,EE,20215FAC,extended,00831821 // addu v1,a0,v1
+patch=0,EE,20215FB0,extended,90630000 // lbu v1,0x0(v1)
+patch=0,EE,20215FB4,extended,00031840 // sll v1,v1,0x01
+patch=0,EE,20215FB8,extended,24040100 // addiu a0,zero,0x100
+patch=0,EE,20215FBC,extended,00832023 // subu a0,a0,v1
+patch=0,EE,20215FC0,extended,0080182A // slt v1,a0,zero
+patch=0,EE,20215FC4,extended,0083100A // movz v0,a0,v1
+patch=0,EE,20215FC8,extended,03E00008 // jr ra
+patch=0,EE,20215FCC,extended,00021100 // sll v0,v0,0x04
+
+patch=0,EE,202166D8,extended,0C0857D7 // jal 0x00215F5C
+patch=0,EE,202166DC,extended,00000000 // nop
+
+patch=0,EE,202166E8,extended,0C0857DF // jal 0x00215F7C
+patch=0,EE,202166EC,extended,00000000 // nop

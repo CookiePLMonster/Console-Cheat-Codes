@@ -1,0 +1,23 @@
+gametitle=Gran Turismo 2000 [PAPX-90203] (J)
+
+[Trigger control mappings]
+description=Maps throttle and brake to triggers, like in modern GT games.
+author=Silent
+
+// Create a function to scale the input by 256/255
+// ScaleTriggerInputs
+patch=0,EE,20215FD0,extended,00042A00 // sll a1,a0,0x08
+patch=0,EE,20215FD4,extended,000433C0 // sll a2,a0,0x0F
+patch=0,EE,20215FD8,extended,00C52821 // addu a1,a2,a1
+patch=0,EE,20215FDC,extended,000435C0 // sll a2,a0,0x17
+patch=0,EE,20215FE0,extended,00C52821 // addu a1,a2,a1
+patch=0,EE,20215FE4,extended,03E00008 // jr ra
+patch=0,EE,20215FE8,extended,000515C2 // srl v0,a1,0x17
+
+patch=0,EE,202166D0,extended,0C0857F4 // jal ScaleTriggerInputs
+patch=0,EE,102166D4,extended,9222002F // lbu ?,0x2F(?)
+patch=0,EE,202166E0,extended,0C0857F4 // jal ScaleTriggerInputs
+patch=0,EE,102166E4,extended,9222002E // lbu ?,0x2E(?)
+
+patch=0,EE,1021670C,extended,0080 // andi ?,?,0x0080
+patch=0,EE,20216718,extended,00121183 // sra v0,s2,0x06

@@ -1,0 +1,56 @@
+gametitle=Gran Turismo 2000 [PAPX-90203] (J)
+
+[Auto-activate analogs]
+description=Automatically put gamepads in an analog mode, like in later Gran Turismo games.
+author=Silent
+
+// Build ControlManagerClass::PSPort::TryPutInAnalogMode
+patch=0,EE,20231EF4,extended,1480003B // bne a0,zero,0x231FE4
+patch=0,EE,20231EF8,extended,27BDFFD0 // addiu sp,sp,-0x30
+patch=0,EE,20231EFC,extended,FFBF0000 // sd ra,0x0(sp)
+patch=0,EE,20231F00,extended,FFA60010 // sd a2,0x10(sp)
+patch=0,EE,20231F04,extended,FFB20020 // sd s2,0x20(sp)
+patch=0,EE,20231F08,extended,2407FFFF // li a3,-0x1
+patch=0,EE,20231F0C,extended,24060004 // li a2,0x4
+patch=0,EE,20231F10,extended,82050005 // lb a1,0x5(s0)
+patch=0,EE,20231F14,extended,0C09207E // jal scePadInfoMode
+patch=0,EE,20231F18,extended,82040004 // lb a0,0x4(s0)
+patch=0,EE,20231F1C,extended,0040902D // move s2,v0
+patch=0,EE,20231F20,extended,0000882D // move s1,zero
+patch=0,EE,20231F24,extended,0232102A // slt v0,s1,s2
+patch=0,EE,20231F28,extended,1060002B // beq v1,zero,0x0231FD8
+patch=0,EE,20231F2C,extended,0220382D // move a3,s1
+patch=0,EE,20231F30,extended,24060004 // li a2,0x4
+patch=0,EE,20231F34,extended,82050005 // lb a1,0x5(s0)
+patch=0,EE,20231F38,extended,0C09207E // jal scePadInfoMode
+patch=0,EE,20231F3C,extended,82040004 // lb a0,0x4(s0)
+patch=0,EE,20231F40,extended,24030007 // li v1,0x7
+patch=0,EE,20231F44,extended,1443FFF7 // bne v0,v1,0x00231F24
+patch=0,EE,20231F48,extended,26310001 // addiu s1,s1,0x1
+patch=0,EE,20231F4C,extended,24070003 // li a3,0x3
+patch=0,EE,20231F50,extended,24060001 // li a2,0x1
+patch=0,EE,20231F54,extended,82050005 // lb a1,0x5(s0)
+patch=0,EE,20231F58,extended,0C0920A0 // jal scePadSetMainMode
+patch=0,EE,20231F5C,extended,82040004 // lb a0,0x4(s0)
+patch=0,EE,20231F60,extended,82050005 // lb a1,0x5(s0)
+patch=0,EE,20231F64,extended,0C091FA6 // jal scePadGetState
+patch=0,EE,20231F68,extended,82040004 // lb a0,0x4(s0)
+patch=0,EE,20231F6C,extended,24030002 // li v1,0x2
+patch=0,EE,20231F70,extended,10430019 // beq v0,v1,z_0x00231fdc
+patch=0,EE,20231F74,extended,00000000 // nop
+patch=0,EE,20231F78,extended,10000016 // b 0x00231FD4
+patch=0,EE,20231F7C,extended,24030006 // li v1,0x6
+
+patch=0,EE,20231FD4,extended,1462FFE2 // bne v1,v0,0x00231F60
+patch=0,EE,20231FD8,extended,DFB20020 // ld s2,0x20(sp)
+patch=0,EE,20231FDC,extended,DFA60010 // ld a2,0x10(sp)
+patch=0,EE,20231FE0,extended,DFBF0000 // ld ra,0x0(sp)
+patch=0,EE,20231FE4,extended,27BD0030 // addiu sp,sp,0x30
+patch=0,EE,20231FE8,extended,30C400FF // andi a0,a2,0x00FF
+patch=0,EE,20231FEC,extended,03E00008 // jr ra
+patch=0,EE,20231FF0,extended,3C02002B // lui v0,0x002B
+
+// s1 is unused by the calling function at this point yet but it preserves it
+// so we don't need to
+patch=0,EE,2023287C,extended,0C08C7BD // jal ControlManagerClass::PSPort::TryPutInAnalogMode
+patch=0,EE,20232880,extended,00000000 // nop
