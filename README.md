@@ -31,6 +31,9 @@ Currently includes:
   * Tokyo Xtreme Racer: Zero (SLUS-20189, SLES-50115, SLPS-25028)
   * Tourist Trophy (SCUS-97502, SCES-53372)
 
+* GameCube Gecko codes for:
+  * NASCAR: Dirt to Daytona (GN2E70)
+
 * PSP CWCheat codes for:
   * Midnight Club: L.A. Remix (ULUS-10383, ULES-01144, ULJS-00180, ULJM-05904)
 
@@ -45,4 +48,4 @@ Currently includes:
 * PeterDelta - the original Remove Ghosting Effects cheat for San Andreas
 * VIRGIN KLM - Tokyo Xtreme Racer: Zero, widescreen fix
 * xan1242 - Gran Turismo 3 JP cheats, ProStreet Native Widescreen patch
-- Xenn - original Gran Turismo 2000 research on the AI cars
+* Xenn765 - original Gran Turismo 2000 research on the AI cars
