@@ -27,7 +27,7 @@ Currently includes:
   * Need for Speed: Pro Street (SLES-55002, SLES-55006)
   * Need for Speed: Underground (SLUS-20811, SLES-51967, SLPM-65471, SLPM-65614, SLKA-25136)
   * Test Drive: Eve of Destruction (SLUS-20910)
-  * Test Drive Unlimited (SLUS-21490)
+  * Test Drive Unlimited (SLUS-21490, SLES-53753, SLES-54466)
   * Tokyo Xtreme Racer: Zero (SLUS-20189, SLES-50115, SLPS-25028)
   * Tourist Trophy (SCUS-97502, SCES-53372)
 
