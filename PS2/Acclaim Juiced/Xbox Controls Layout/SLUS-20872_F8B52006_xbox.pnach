@@ -1,0 +1,42 @@
+﻿gametitle=Juiced (USA) (SLUS_208.72) (Jul 28, 2004 Preview Acclaim)
+
+[Xbox Controls Layout]
+description=Enables the full Xbox controls layout, including menus. Menu button legends will not always match reality.
+author=Silent
+
+patch=0,EE,003BB008,bytes,5F78626F782E747874 // controls_xbox.txt
+patch=0,EE,003D25E8,bytes,4241434B00 // GAMEPAD_BACK
+patch=0,EE,003D26C0,bytes,4100 // GAMEPAD_A
+patch=0,EE,003D26D0,bytes,5900 // GAMEPAD_Y
+patch=0,EE,003D26E8,bytes,5800 // GAMEPAD_X
+patch=0,EE,003D26F8,bytes,4200 // GAMEPAD_B
+patch=0,EE,003D2650,bytes,574849544500 // GAMEPAD_WHITE
+patch=0,EE,003D2660,bytes,424C41434B00 // GAMEPAD_BLACK
+patch=0,EE,003D2680,bytes,4C4546545F5452494747455200 // GAMEPAD_LEFT_TRIGGER
+
+// GAMEPAD_RIGHT_TRIGGER needs to be relocated
+patch=0,EE,003D28F0,bytes,47414D455041445F52494748545F5452494747455200 // GAMEPAD_RIGHT_TRIGGER
+patch=0,EE,102B4954,extended,28F0
+
+// Make GAMEPAD_*_TRIGGER analogue
+patch=0,EE,102B419C,extended,26E0
+patch=0,EE,102B41B0,extended,26F0
+
+patch=0,EE,102B4228,extended,2678
+patch=0,EE,102B423C,extended,28F0
+patch=0,EE,102B4280,extended,2678
+patch=0,EE,102B4294,extended,28F0
+
+patch=0,EE,102B4F5C,extended,2678
+patch=0,EE,102B4FA0,extended,0131
+patch=0,EE,102B4FAC,extended,28F0
+patch=0,EE,102B4FF0,extended,0133
+
+patch=0,EE,202B4A70,extended,00000000
+
+// Make gamepad analog inputs truly analog, like on Xbox (x / 255.0)
+patch=0,EE,202B5330,extended,3C013B80 // lui at,0x3B80
+patch=0,EE,202B5334,extended,34218081 // ori at,at,0x8081
+patch=0,EE,202B5338,extended,44810000 // mtc1 at,f00
+patch=0,EE,202B534C,extended,10000022 // b 0x002B53D4
+patch=0,EE,202B5350,extended,46010002 // mul.s f00,f00,f01
