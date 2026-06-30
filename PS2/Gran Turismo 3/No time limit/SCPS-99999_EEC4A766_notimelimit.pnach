@@ -8,3 +8,4 @@ patch=0,EE,10100590,extended,0000 // Race time limit
 patch=0,EE,101006C0,extended,0000 // Replay time limit
 patch=0,EE,20105F94,extended,00000000 // Disable kicking out to the main menu on inactivity
 patch=0,EE,10105EE0,extended,0000 // As above, but for the pause menu
+patch=0,EE,10112394,extended,0000 // Disable the main menu idle timer
