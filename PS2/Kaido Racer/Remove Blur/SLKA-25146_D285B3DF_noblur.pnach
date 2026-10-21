@@ -1,0 +1,12 @@
+gametitle=Kaido Battle 2 (K) (SLKA-25146)
+
+[Remove Blur]
+description=Removes a 1-line offset from the blurring effect, preserving the Depth of Field. Improves image clarity, especially when upscaling.
+author=Silent
+
+patch=0,EE,1014E440,extended,0000
+patch=0,EE,1014E494,extended,0000
+patch=0,EE,1014DD08,extended,0000
+patch=0,EE,1014DD0C,extended,0000
+patch=0,EE,1014DD70,extended,0000
+patch=0,EE,1014DD74,extended,0000

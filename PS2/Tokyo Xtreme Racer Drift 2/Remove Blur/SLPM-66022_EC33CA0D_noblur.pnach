@@ -1,0 +1,12 @@
+gametitle=Kaido: Touge no Densetsu (J) (SLPM-66022)
+
+[Remove Blur]
+description=Removes a 1-line offset from the blurring effect, preserving the Depth of Field. Improves image clarity, especially when upscaling.
+author=Silent
+
+patch=0,EE,1019BF5C,extended,0000
+patch=0,EE,1019BFB0,extended,0000
+patch=0,EE,1019BAE8,extended,0000
+patch=0,EE,1019BAF4,extended,0000
+patch=0,EE,1019BB50,extended,0000
+patch=0,EE,1019BB54,extended,0000

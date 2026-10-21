@@ -1,0 +1,12 @@
+gametitle=Kaido Racer (E) (SLES-53191)
+
+[Remove Blur]
+description=Removes a 1-line offset from the blurring effect, preserving the Depth of Field. Improves image clarity, especially when upscaling.
+author=Silent
+
+patch=0,EE,10149930,extended,0000
+patch=0,EE,10149984,extended,0000
+patch=0,EE,101491E8,extended,0000
+patch=0,EE,101491EC,extended,0000
+patch=0,EE,10149258,extended,0000
+patch=0,EE,10149260,extended,0000

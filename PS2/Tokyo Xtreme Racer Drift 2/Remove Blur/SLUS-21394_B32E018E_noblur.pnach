@@ -1,0 +1,12 @@
+gametitle=Tokyo Xtreme Racer: Drift 2 (U) (SLUS-21394)
+
+[Remove Blur]
+description=Removes a 1-line offset from the blurring effect, preserving the Depth of Field. Improves image clarity, especially when upscaling.
+author=Silent
+
+patch=0,EE,1019CA8C,extended,0000
+patch=0,EE,1019CAE0,extended,0000
+patch=0,EE,1019C618,extended,0000
+patch=0,EE,1019C624,extended,0000
+patch=0,EE,1019C680,extended,0000
+patch=0,EE,1019C684,extended,0000
