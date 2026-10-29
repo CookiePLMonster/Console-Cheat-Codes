@@ -1,0 +1,7 @@
+gametitle=Kaido Racer 2 (E) (SLES-53900)
+
+[Raindrops In All Camera Modes]
+description=Makes on-screen rain droplets display in all camera modes.
+author=Silent
+
+patch=0,EE,2038761C,extended,00000000

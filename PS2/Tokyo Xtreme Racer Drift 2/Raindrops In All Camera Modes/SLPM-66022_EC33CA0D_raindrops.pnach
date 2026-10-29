@@ -1,0 +1,7 @@
+gametitle=Kaido: Touge no Densetsu (J) (SLPM-66022)
+
+[Raindrops In All Camera Modes]
+description=Makes on-screen rain droplets display in all camera modes.
+author=Silent
+
+patch=0,EE,20380CDC,extended,00000000

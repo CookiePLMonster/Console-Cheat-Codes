@@ -1,0 +1,8 @@
+gametitle=Kaido Battle 2 (K) (SLKA-25146)
+
+[Raindrops In All Camera Modes]
+description=Makes on-screen rain droplets display in all camera modes.
+author=Silent
+
+patch=0,EE,201E31A0,extended,00000000
+patch=0,EE,201E0C38,extended,00000000

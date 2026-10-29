@@ -1,0 +1,7 @@
+gametitle=Shutokou Battle 01 (J) (SLPM-65308)
+
+[Raindrops In All Camera Modes]
+description=Makes on-screen rain droplets display in all camera modes.
+author=Silent
+
+patch=0,EE,20190E34,extended,00000000

@@ -36,7 +36,7 @@ Currently includes:
   * Test Drive Unlimited (SLUS-21490, SLES-53753, SLES-54466)
   * Tokyo Xtreme Racer 3 (SLUS-20831, SLPM-60206, SLPM-65308, SLKA-25084)
   * Tokyo Xtreme Racer: Drift (SLUS-21236, SLPM-60195, SLPM-65246, SLKA-25063)
-  * Tokyo Xtreme Racer: Drift 2 (SLUS-21394, 	SLES-53900, SLPM-61121, SLPM-66022)
+  * Tokyo Xtreme Racer: Drift 2 (SLUS-21394, SLES-53900, SLPM-61121, SLPM-66022)
   * Tokyo Xtreme Racer: Zero (SLUS-20189, SLES-50115, SLPS-25028)
   * Tourist Trophy (SCUS-97502, SCES-53372)
 

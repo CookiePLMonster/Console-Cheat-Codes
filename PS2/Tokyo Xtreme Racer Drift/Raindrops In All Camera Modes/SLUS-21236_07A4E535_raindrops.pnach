@@ -1,0 +1,8 @@
+gametitle=Tokyo Xtreme Racer: Drift (U) (SLUS-21236)
+
+[Raindrops In All Camera Modes]
+description=Makes on-screen rain droplets display in all camera modes.
+author=Silent
+
+patch=0,EE,2014B8EC,extended,00000000
+patch=0,EE,2014949C,extended,00000000 

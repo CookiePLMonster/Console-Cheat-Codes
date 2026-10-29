@@ -1,0 +1,7 @@
+gametitle=Racing Battle - C1 Grand Prix (J) (SLPM-65897) (English Patch)
+
+[Raindrops In All Camera Modes]
+description=Makes on-screen rain droplets display in all camera modes.
+author=Silent
+
+patch=0,EE,2023C154,extended,00000000

@@ -1,0 +1,7 @@
+gametitle=Tokyo Xtreme Racer 3 (U) (SLUS-20831)
+
+[Raindrops In All Camera Modes]
+description=Makes on-screen rain droplets display in all camera modes.
+author=Silent
+
+patch=0,EE,20190A44,extended,00000000

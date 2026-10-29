@@ -1,0 +1,7 @@
+gametitle=Shutokou Battle 01 (K) (SLKA-25084)
+
+[Raindrops In All Camera Modes]
+description=Makes on-screen rain droplets display in all camera modes.
+author=Silent
+
+patch=0,EE,201918C4,extended,00000000
